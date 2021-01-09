@@ -1,0 +1,24 @@
+{
+  "name": "jeu-de-loie",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atelfoto/jeu-de-loie.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atelfoto/jeu-de-loie/issues"
+  },
+  "homepage": "https://github.com/atelfoto/jeu-de-loie#readme",
+  "devDependencies": {
+    "bootstrap": "^5.0.0-beta1",
+    "roboto-fontface": "^0.10.0"
+  }
+}

@@ -23,230 +23,238 @@
 
 <body cz-shortcut-listen="true" style="cursor: auto;">
     <img alt="" class="logo" src="images/clps-logo.jpg" alt="">
-    <header class="header">
-        <h2>Jeu des Cornouailles</h2>
-        <p>
-            <a href="jeu-de-l-oie_files/pdf/regles.pdf" target="new" title="Lire la règle">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-question-circle" viewBox="0 0 16 16">
+    <div class="container">
+        <header class="header">
+            <h2>Jeu des Cornouailles</h2>
+            <p>
+                <a href="jeu-de-l-oie_files/pdf/regles.pdf" target="new" title="Lire la règle">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-question-circle" viewBox="0 0 16 16">
                     <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
                     <path
                         d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z" />
                 </svg>
-            </a>
-        </p>
-    </header>
-    <!-- <a href="jeu-de-l-oie_files/pdf/regles.pdf" target="new">Lire la règle</a> -->
-    <div class="fond">
-        <div id="dessinfond">
-            <img src="./images/jeu-oie.png" width="1024" height="596" alt="Jeu de l&#39;oie">
-        </div>
-        <!--rebours-->
-        <!--<div id="rebours"></div>-->
-        <!--fin rebours-->
+                </a>
+            </p>
+        </header>
+        <!-- <a href="jeu-de-l-oie_files/pdf/regles.pdf" target="new">Lire la règle</a> -->
+        <div class="fond">
+            <div id="dessinfond">
+                <img src="./images/jeu-oie.png" width="1024" height="596" alt="Jeu de l&#39;oie">
+            </div>
+            <!--rebours-->
+            <!--<div id="rebours"></div>-->
+            <!--fin rebours-->
 
 
-        <!-- <div id="titre">Le jeu de l'oie des enfants nomades</div> -->
-        <!-- <div id="regle">
+            <!-- <div id="titre">Le jeu de l'oie des enfants nomades</div> -->
+            <!-- <div id="regle">
       <a href="http://voyagesenfrancais.fr/img  alt=""/pdf/5_voyages_en_francais_jeu_oie_regles.pdf"
         target="new">Lire la règle</a>
     </div> -->
-        <!--credits-->
-        <div id="credits">
-            <p> <br /> Conception&nbsp;: mouahamadi zoë amantine morgane philippe véronique roxane adrien felipe<br>
-                <!-- Illustrations&nbsp;: Miguel Angel Saez  -->
+            <!--credits-->
+            <div id="credits">
+                <p> <br /> Conception&nbsp;: mouahamadi zoë amantine morgane philippe véronique roxane adrien felipe<br>
+                </p>
+            </div>
+            <!--PIONS-->
+            <div id="pion1" class="ui-draggable">
+                <img alt="" src="./images/pion1.png" width="30" height="40">
+            </div>
+            <div id="pion2" class="ui-draggable">
+                <img alt="" src="./images/pion2.png" width="30" height="40">
+            </div>
+            <div id="pion3" class="ui-draggable">
+                <img alt="" src="./images/pion3.png" width="30" height="40">
+            </div>
+            <div id="pion4" class="ui-draggable">
+                <img alt="" src="./images/pion4.png" width="30" height="40">
+            </div>
+            <div id="pion5" class="ui-draggable">
+                <img alt="" src="./images/pion5.png" width="30" height="40">
+            </div>
+            <div id="pion6" class="ui-draggable">
+                <img alt="" src="./images/pion6.png" width="30" height="40">
+            </div>
+            <!--TOUTES CASES CADRE-->
+            <div id="cases2" style="display: none;">
+                <img alt="" src="./images/jeu-oie.png" width="1024" height="596" alt="Jeu de l&#39;oie">
+            </div>
+
+            <div id="cases" style="display: none;"></div>
+            <!--DESSINS CCASES-->
+            <div id="dessincase1" style="visibility: hidden;">
+                <!-- <img  alt="" src="./jeu-de-l-oie_files/dessincase1.png" width="238" height="227"> -->
+                <img alt="" src="./images/dessincase1.png" width="300" height="208">
+            </div>
+            <div id="dessincase4" style="visibility: hidden;">
+                <img alt="" src="./images/dessincase4.png" width="547" height="255">
+            </div>
+            <div id="dessincase5" style="visibility: hidden;">
+                <img alt="" src="./images/dessincase5.png" width="396" height="255">
+            </div>
+            <div id="dessincase18" style="visibility: hidden;">
+                <img alt="" src="./images/dessincase18.png" width="396" height="255">
+            </div>
+            <div id="dessincase9" style="visibility: hidden;">
+                <img alt="" src="./images/dessincase9.png" width="396" height="255">
+            </div>
+            <div id="dessincase19" style="visibility: hidden;">
+                <img alt="" src="./images/dessin-case19.png" width="396" height="255">
+            </div>
+            <div id="dessincase22" style="visibility: hidden;">
+                <img alt="" src="./images/dessin-case22.png" width="580" height="280">
+            </div>
+            <div id="dessincase24" style="visibility: hidden;">
+                <img alt="" src="./images/dessin-case24.png" width="500" height="280">
+            </div>
+            <div id="dessincase25" style="visibility: hidden;">
+                <img alt="" src="./images/dessin-final.png" width="500" height="255">
+            </div>
+            <!--CARRE POUR VOIR CASES-->
+            <div class="numero" title="question" id="numero1"></div>
+            <div class="numero" title="question" id="numero2"></div>
+            <div class="numero" title="question" id="numero3"></div>
+            <div class="numero" title="question" id="numero4"></div>
+            <div class="numero" title="question" id="numero5"></div>
+            <div class="numero" title="question" id="numero6"></div>
+            <div class="numero" title="question" id="numero7"></div>
+            <div class="numero" title="question" id="numero8"></div>
+            <div class="numero" title="question" id="numero9"></div>
+            <div class="numero" title="question" id="numero10"></div>
+            <div class="numero" title="question" id="numero11"></div>
+            <div class="numero" title="question" id="numero12"></div>
+            <div class="numero" title="question" id="numero13"></div>
+            <div class="numero" title="question" id="numero14"></div>
+            <div class="numero" title="question" id="numero15"></div>
+            <div class="numero" title="question" id="numero16"></div>
+            <div class="numero" title="question" id="numero17"></div>
+            <div class="numero" title="question" id="numero18"></div>
+            <div class="numero" title="question" id="numero19"></div>
+            <div class="numero" title="question" id="numero20"></div>
+            <div class="numero" title="question" id="numero21"></div>
+            <div class="numero" title="question" id="numero22"></div>
+            <div class="numero" title="question" id="numero23"></div>
+            <div class="numero" title="question" id="numero24"></div>
+            <div class="numero" title="question" id="numero25"></div>
+
+
+
+            <!--BOUTONS LECTURE-->
+            <div id="lecture1" style="display: none;">
+                <img alt="" src="./images/lecture.png" class="lecture" title="lecture" width="60" height="65">
+            </div>
+            <div id="lecture2" style="display: none;">
+                <img alt="" src="./images/lecture.png" class="lecture" title="lecture" width="60" height="65">
+            </div>
+            <div id="lecture3" style="display: none;">
+                <img alt="" src="./images/lecture.png" class="lecture" title="lecture" width="60" height="65">
+            </div>
+            <div id="lecture4" style="display: none;">
+                <img alt="" src="./images/lecture.png" class="lecture" title="lecture" width="60" height="65">
+            </div>
+            <div id="lecture5" style="display: none;">
+                <img alt="" src="./images/lecture.png" class="lecture" title="lecture" width="60" height="65">
+            </div>
+            <div id="lecture7" style="display: none;">
+                <img alt="" src="./images/lecture.png" class="lecture" title="lecture" width="60" height="65">
+            </div>
+            <div id="lecture6" style="display: none;">
+                <img alt="" src="./images/lecture.png" class="lecture" title="lecture" width="60" height="65">
+            </div>
+            <div id="lecture8" style="display: none;">
+                <img alt="" src="./images/lecture.png" class="lecture" title="lecture" width="60" height="65">
+            </div>
+            <div id="lecture9" style="display: none;">
+                <img alt="" src="./images/lecture.png" class="lecture" title="lecture" width="60" height="65">
+            </div>
+            <div id="lecture10" style="display: none;">
+                <img alt="" src="./images/lecture.png" class="lecture" title="lecture" width="60" height="65">
+            </div>
+            <div id="lecture11" style="display: none;">
+                <img alt="" src="./images/lecture.png" class="lecture" title="lecture" width="60" height="65">
+            </div>
+            <div id="lecture12" style="display: none;">
+                <img alt="" src="./images/lecture.png" class="lecture" title="lecture" width="60" height="65">
+            </div>
+            <div id="lecture13" style="display: none;">
+                <img alt="" src="./images/lecture.png" class="lecture" title="lecture" width="60" height="65">
+            </div>
+            <div id="lecture14" style="display: none;">
+                <img alt="" src="./images/lecture.png" class="lecture" title="lecture" width="60" height="65">
+            </div>
+            <div id="lecture15" style="display: none;">
+                <img alt="" src="./images/lecture.png" class="lecture" title="lecture" width="60" height="65">
+            </div>
+            <div id="lecture16" style="display: none;">
+                <img alt="" src="./images/lecture.png" class="lecture" title="lecture" width="60" height="65">
+            </div>
+            <div id="lecture17" style="display: none;">
+                <img alt="" src="./images/lecture.png" class="lecture" title="lecture" width="60" height="65">
+            </div>
+            <div id="lecture18" style="display: none;">
+                <img alt="" src="./images/lecture.png" class="lecture" title="lecture" width="60" height="65">
+            </div>
+            <div id="lecture19" style="display: none;">
+                <img alt="" src="./images/lecture.png" class="lecture" title="lecture" width="60" height="65">
+            </div>
+            <div id="lecture20" style="display: none;">
+                <img alt="" src="./images/lecture.png" class="lecture" title="lecture" width="60" height="65">
+            </div>
+            <div id="lecture21" style="display: none;">
+                <img alt="" src="./images/lecture.png" class="lecture" title="lecture" width="60" height="65">
+            </div>
+            <div id="lecture22" style="display: none;">
+                <img alt="" src="./images/lecture.png" class="lecture" title="lecture" width="60" height="65">
+            </div>
+            <div id="lecture23" style="display: none;">
+                <img alt="" src="./images/lecture.png" class="lecture" title="lecture" width="60" height="65">
+            </div>
+            <div id="lecture24" style="display: none;">
+                <img alt="" src="./images/lecture.png" class="lecture" title="lecture" width="60" height="65">
+            </div>
+            <div id="lecture25" style="display: none;">
+                <img alt="" src="./images/lecture.png" class="lecture" title="lecture" width="60" height="65">
+            </div>
+
+            <!--DESSIN CROIX-->
+            <div id="croix" style="display: none;" title="Fermer">
+                <img alt="" src="./images/croix.png" width="60" height="65">
+            </div>
+
+            <!-- AUTRE PROGRAMME-->
+            <div id="gobelet">
+                <img alt="" src="./images/gobelet.png" width="110" height="150">
+            </div>
+            <div id="de1" style="display: none;">
+                <img alt="" src="./images/de1.png" width="80" height="80">
+            </div>
+            <div id="de2" style="display: none;">
+                <img alt="" src="./images/de2.png" width="80" height="80">
+            </div>
+            <div id="de3" style="display: none;">
+                <img alt="" src="./images/de3.png" width="80" height="80">
+            </div>
+            <div id="de4" style="display: none;">
+                <img alt="" src="./images/de4.png" width="80" height="80">
+            </div>
+            <div id="de5" style="display: none;">
+                <img alt="" src="./images/de5.png" width="80" height="80">
+            </div>
+            <div id="de6" style="display: none;">
+                <img alt="" src="./images/de6.png" width="80" height="80">
+            </div>
+            <!--rebour-->
+            <div id="boite" style="display: none;">
+                <input type="text" id="count">
+                <div id="btn1" onclick="startCount()">Démarrer</div>
+                <div id="btn2" onclick="stopCount()" style="display: none;">Arrêter</div>
+            </div>
+        </div>
+        <footer>
+            <p> <b>Conception</b>&nbsp;: mouahamadi zoë amantine morgane philippe véronique roxane adrien felipe<br>
             </p>
-        </div>
-        <!--PIONS-->
-        <div id="pion1" class="ui-draggable">
-            <img alt="" src="./images/pion1.png" width="30" height="40">
-        </div>
-        <div id="pion2" class="ui-draggable">
-            <img alt="" src="./images/pion2.png" width="30" height="40">
-        </div>
-        <div id="pion3" class="ui-draggable">
-            <img alt="" src="./images/pion3.png" width="30" height="40">
-        </div>
-        <div id="pion4" class="ui-draggable">
-            <img alt="" src="./images/pion4.png" width="30" height="40">
-        </div>
-        <div id="pion5" class="ui-draggable">
-            <img alt="" src="./images/pion5.png" width="30" height="40">
-        </div>
-        <div id="pion6" class="ui-draggable">
-            <img alt="" src="./images/pion6.png" width="30" height="40">
-        </div>
-        <!--TOUTES CASES CADRE-->
-        <div id="cases2" style="display: none;">
-            <img alt="" src="./images/jeu-oie.png" width="1024" height="596" alt="Jeu de l&#39;oie">
-        </div>
 
-        <div id="cases" style="display: none;"></div>
-        <!--DESSINS CCASES-->
-        <div id="dessincase1" style="visibility: hidden;">
-            <!-- <img  alt="" src="./jeu-de-l-oie_files/dessincase1.png" width="238" height="227"> -->
-            <img alt="" src="./images/dessincase1.png" width="300" height="208">
-        </div>
-        <div id="dessincase4" style="visibility: hidden;">
-            <img alt="" src="./images/dessincase4.png" width="547" height="255">
-        </div>
-        <div id="dessincase5" style="visibility: hidden;">
-            <img alt="" src="./images/dessincase5.png" width="396" height="255">
-        </div>
-        <div id="dessincase18" style="visibility: hidden;">
-            <img alt="" src="./images/dessincase18.png" width="396" height="255">
-        </div>
-        <div id="dessincase9" style="visibility: hidden;">
-            <img alt="" src="./images/dessincase9.png" width="396" height="255">
-        </div>
-        <div id="dessincase19" style="visibility: hidden;">
-            <img alt="" src="./images/dessin-case19.png" width="396" height="255">
-        </div>
-        <div id="dessincase22" style="visibility: hidden;">
-            <img alt="" src="./images/dessin-case22.png" width="580" height="280">
-        </div>
-        <div id="dessincase24" style="visibility: hidden;">
-            <img alt="" src="./images/dessin-case24.png" width="500" height="280">
-        </div>
-        <div id="dessincase25" style="visibility: hidden;">
-            <img alt="" src="./images/dessin-final.png" width="500" height="255">
-        </div>
-        <!--CARRE POUR VOIR CASES-->
-        <div id="numero1"></div>
-        <div id="numero2"></div>
-        <div id="numero3"></div>
-        <div id="numero4"></div>
-        <div id="numero5"></div>
-        <div id="numero6"></div>
-        <div id="numero7"></div>
-        <div id="numero8"></div>
-        <div id="numero9"></div>
-        <div id="numero10"></div>
-        <div id="numero11"></div>
-        <div id="numero12"></div>
-        <div id="numero13"></div>
-        <div id="numero14"></div>
-        <div id="numero15"></div>
-        <div id="numero16"></div>
-        <div id="numero17"></div>
-        <div id="numero18"></div>
-        <div id="numero19"></div>
-        <div id="numero20"></div>
-        <div id="numero21"></div>
-        <div id="numero22"></div>
-        <div id="numero23"></div>
-        <div id="numero24"></div>
-        <div id="numero25"></div>
-
-
-
-        <!--BOUTONS LECTURE-->
-        <div id="lecture1" style="display: none;">
-            <img alt="" src="./images/lecture.png" width="60" height="65">
-        </div>
-        <div id="lecture2" style="display: none;">
-            <img alt="" src="./images/lecture.png" width="60" height="65">
-        </div>
-        <div id="lecture3" style="display: none;">
-            <img alt="" src="./images/lecture.png" width="60" height="65">
-        </div>
-        <div id="lecture4" style="display: none;">
-            <img alt="" src="./images/lecture.png" width="60" height="65">
-        </div>
-        <div id="lecture5" style="display: none;">
-            <img alt="" src="./images/lecture.png" width="60" height="65">
-        </div>
-        <div id="lecture7" style="display: none;">
-            <img alt="" src="./images/lecture.png" width="60" height="65">
-        </div>
-        <div id="lecture6" style="display: none;">
-            <img alt="" src="./images/lecture.png" width="60" height="65">
-        </div>
-        <div id="lecture8" style="display: none;">
-            <img alt="" src="./images/lecture.png" width="60" height="65">
-        </div>
-        <div id="lecture9" style="display: none;">
-            <img alt="" src="./images/lecture.png" width="60" height="65">
-        </div>
-        <div id="lecture10" style="display: none;">
-            <img alt="" src="./images/lecture.png" width="60" height="65">
-        </div>
-        <div id="lecture11" style="display: none;">
-            <img alt="" src="./images/lecture.png" width="60" height="65">
-        </div>
-        <div id="lecture12" style="display: none;">
-            <img alt="" src="./images/lecture.png" width="60" height="65">
-        </div>
-        <div id="lecture13" style="display: none;">
-            <img alt="" src="./images/lecture.png" width="60" height="65">
-        </div>
-        <div id="lecture14" style="display: none;">
-            <img alt="" src="./images/lecture.png" width="60" height="65">
-        </div>
-        <div id="lecture15" style="display: none;">
-            <img alt="" src="./images/lecture.png" width="60" height="65">
-        </div>
-        <div id="lecture16" style="display: none;">
-            <img alt="" src="./images/lecture.png" width="60" height="65">
-        </div>
-        <div id="lecture17" style="display: none;">
-            <img alt="" src="./images/lecture.png" width="60" height="65">
-        </div>
-        <div id="lecture18" style="display: none;">
-            <img alt="" src="./images/lecture.png" width="60" height="65">
-        </div>
-        <div id="lecture19" style="display: none;">
-            <img alt="" src="./images/lecture.png" width="60" height="65">
-        </div>
-        <div id="lecture20" style="display: none;">
-            <img alt="" src="./images/lecture.png" width="60" height="65">
-        </div>
-        <div id="lecture21" style="display: none;">
-            <img alt="" src="./images/lecture.png" width="60" height="65">
-        </div>
-        <div id="lecture22" style="display: none;">
-            <img alt="" src="./images/lecture.png" width="60" height="65">
-        </div>
-        <div id="lecture23" style="display: none;">
-            <img alt="" src="./images/lecture.png" width="60" height="65">
-        </div>
-        <div id="lecture24" style="display: none;">
-            <img alt="" src="./images/lecture.png" width="60" height="65">
-        </div>
-        <div id="lecture25" style="display: none;">
-            <img alt="" src="./images/lecture.png" width="60" height="65">
-        </div>
-
-        <!--DESSIN CROIX-->
-        <div id="croix" style="display: none;"><img alt="" src="./images/croix.png" width="60" height="65"></div>
-
-        <!-- AUTRE PROGRAMME-->
-        <div id="gobelet">
-            <img alt="" src="./images/gobelet.png" width="110" height="150">
-        </div>
-        <div id="de1" style="display: none;">
-            <img alt="" src="./images/de1.png" width="80" height="80">
-        </div>
-        <div id="de2" style="display: none;">
-            <img alt="" src="./images/de2.png" width="80" height="80">
-        </div>
-        <div id="de3" style="display: none;">
-            <img alt="" src="./images/de3.png" width="80" height="80">
-        </div>
-        <div id="de4" style="display: none;">
-            <img alt="" src="./images/de4.png" width="80" height="80">
-        </div>
-        <div id="de5" style="display: none;">
-            <img alt="" src="./images/de5.png" width="80" height="80">
-        </div>
-        <div id="de6" style="display: none;">
-            <img alt="" src="./images/de6.png" width="80" height="80">
-        </div>
-        <!--rebour-->
-        <div id="boite" style="display: none;">
-            <input type="text" id="count">
-            <div id="btn1" onclick="startCount()">Démarrer</div>
-            <div id="btn2" onclick="stopCount()" style="display: none;">Arrêter</div>
-        </div>
+        </footer>
     </div>
 </body>
 

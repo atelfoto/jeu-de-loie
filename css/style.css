@@ -1,18 +1,59 @@
-h2 {
-    text-align: center;
-    font-size: 2rem;
+:root {
+    --main-color: #ee7103;
 }
 
-header p {
-    float: right;
+h2 {
+    text-align: center;
+    font-size: 3rem;
+    width: calc(1024px - 50px);
+}
+
+.header {
+    display: flex;
+    /* justify-content: space-between; */
+    width: 1024px;
+    height: 118px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    color: var(--main-color);
+}
+
+.bi {
+    color: var(--main-color);
 }
 
 .logo {
-    position: absolute;
-    left: 0;
-    right: 0;
-    /* width: 150px; */
-    /* height: auto; */
+    /* left: 0; */
+    /* right: 0; */
     margin-left: 10px;
-    margin: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    position: absolute;
 }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+footer p {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.numero:hover,
+#croix:hover,
+.lecture {
+    cursor: pointer;
+}
+
+
+/* 
+#croix:hover {
+    cursor: pointer;
+} */

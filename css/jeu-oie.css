@@ -1,4 +1,8 @@
 @charset "UTF-8";
+:root {
+    --main-color: #ee7103;
+}
+
 body {
     /* background-image: url(images/dcase0.png); */
     background-color: #000;
@@ -30,7 +34,8 @@ body {
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    border: 8px solid #cf6;
+    /* border: 8px solid #cf6; */
+    border: 8px solid var(--main-color);
     height: 596px;
     text-align: center;
     width: 1024px;
@@ -142,6 +147,8 @@ body {
     visibility: hidden;
 }
 
+
+/* 
 #titre {
     position: absolute;
     background-color: #983897;
@@ -154,7 +161,7 @@ body {
     width: 390px;
     top: 12px;
     left: 139px;
-}
+} */
 
 #regle {
     position: absolute;
@@ -485,10 +492,12 @@ body {
 
 #cases {
     position: absolute;
-    color: #fff;
+    /* color: #fff; */
+    color: #000;
     font-size: 24px;
     text-align: center;
-    background-color: #c96f39;
+    /* background-color: #c96f39; */
+    background-color: #fff;
     border-radius: 2px;
     height: 155px;
     text-align: center;
@@ -497,7 +506,8 @@ body {
     padding: 5px;
     top: 278px;
     border-radius: 8px;
-    border: 8px solid #cf6;
+    border: 8px solid var(--main-color);
+    /* border: 8px solid #cf6; */
     visibility: visible;
 }
 
