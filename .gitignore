@@ -1,5 +1,4 @@
 .vscode/*
-!.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
@@ -10,5 +9,6 @@
 .images-download/**
 jeu-de-l-oie_files/**
 images/**
+!images/jeu-oie.jpg
 sounds/**
 node_modules/**
