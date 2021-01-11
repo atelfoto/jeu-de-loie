@@ -4,13 +4,12 @@
 
 h2 {
     text-align: center;
-    font-size: 3rem;
-    width: calc(1024px - 50px);
+    /* font-size: 3rem; */
+    width: calc(1024px - 100px);
 }
 
 .header {
     display: flex;
-    /* justify-content: space-between; */
     width: 1024px;
     height: 118px;
     margin-left: auto;
@@ -21,13 +20,48 @@ h2 {
     color: var(--main-color);
 }
 
-.bi {
+.title {
+    text-decoration: none;
+    font-size: 3rem;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+a.title:hover,
+.bi:hover {
+    color: grey;
+    transition: 0.5s;
+}
+
+a.title:active,
+.bi:active {
+    transform: scale(0.9);
+    transition: transform 0.1s;
+    box-shadow: 0 0 0 0;
+}
+
+.header a {
     color: var(--main-color);
 }
 
+.header p {
+    width: 100px;
+    display: flex;
+}
+
+.header p a {
+    margin-left: 10px;
+}
+
+.bi {
+    color: var(--main-color);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 8px 1px rgba(0, 0, 0, 0.52);
+}
+
 .logo {
-    /* left: 0; */
-    /* right: 0; */
     margin-left: 10px;
     margin-top: 10px;
     margin-left: 10px;
@@ -41,6 +75,10 @@ h2 {
     height: 100vh;
 }
 
+.fond {
+    min-width: 499px;
+}
+
 footer p {
     text-align: center;
     text-transform: capitalize;
@@ -51,9 +89,3 @@ footer p {
 .lecture {
     cursor: pointer;
 }
-
-
-/* 
-#croix:hover {
-    cursor: pointer;
-} */
