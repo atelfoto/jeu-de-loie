@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
+* {
+  font-family: "Josefin Sans", sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+body {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+  min-height: 100vh;
+  background: #2f3542;
+  color: #dfe4ea;
+}
+
+h1 {
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+  }
+}
+
+h1 span,
+h1 i {
+  color: #ffa502;
+}
+
+h2 {
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
+}
+
+h3 {
+  color: #ffa502;
+  font-size: 1.5rem;
+}
+
+.questions {
+  width: calc(100vw - 20px);
+  min-height: 160px;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  line-height: 2rem;
+}
+
+@media (min-width: 768px) {
+  .questions {
+    width: 500px;
+    height: 100px;
+  }
+}
+
+@media (max-height: 411px) {
+  .questions {
+    min-height: 60px;
+  }
+}
+
+.container .choices {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 1rem auto 1rem;
+  width: calc(100vw - 8px);
+}
+
+@media (min-width: 768px) {
+  .container .choices {
+    width: 500px;
+    margin: 3rem auto 3rem;
+  }
+}
+
+.container .choices button {
+  width: calc(100vw - .8rem);
+  height: 80px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  margin: 0.4rem;
+  outline: none;
+  background: #dfe4ea;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  font-weight: 600;
+}
+
+@media (min-width: 768px) {
+  .container .choices button {
+    width: 200px;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 95%;
+            flex: 1 0 95%;
+    height: 80px;
+  }
+}
+
+@media screen and (max-height: 768px) {
+  .container .choices button {
+    height: 60px;
+  }
+}
+
+.container .choices button:hover {
+  background: #ffa502;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.container .choices button:active {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  -webkit-transition: -webkit-transform 0.1s;
+  transition: -webkit-transform 0.1s;
+  transition: transform 0.1s;
+  transition: transform 0.1s, -webkit-transform 0.1s;
+}
+
+.container .choices button p {
+  font-size: 1.3rem;
+}
+
+#progress {
+  font-size: 1.3rem;
+  color: #ffa502;
+}
+
+.logo {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .logo {
+    margin-top: 10px;
+    margin-left: 10px;
+    position: absolute;
+    display: block;
+  }
+}
+/*# sourceMappingURL=main.css.map */
