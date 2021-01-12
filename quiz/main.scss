@@ -19,7 +19,9 @@ body {
 
 h1 {
     margin-bottom: 1rem;
-    text-transform: uppercase;
+    // text-transform: uppercase;
+    text-transform: capitalize;
+    font-variant-caps: small-caps;
     @include respond-above(sm) {
         font-size: 3rem;
         margin-bottom: 3rem;

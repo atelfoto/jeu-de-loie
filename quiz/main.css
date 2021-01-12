@@ -22,7 +22,8 @@ body {
 
 h1 {
   margin-bottom: 1rem;
-  text-transform: uppercase;
+  text-transform: capitalize;
+  font-variant-caps: small-caps;
 }
 
 @media (min-width: 768px) {
