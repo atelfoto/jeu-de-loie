@@ -1,9 +1,4 @@
 {
-    "gitflow4code.features": [
-        {
-            "name": "feature/culinaire",
-            "base": "develop"
-        }
-    ],
+    "gitflow4code.features": [],
     "liveSassCompile.settings.generateMap": true
 }

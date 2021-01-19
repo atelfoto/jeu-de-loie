@@ -1,0 +1,11 @@
+.header {
+    display: flex;
+    justify-content: flex-end;
+    a {
+        color: #fff;
+        transition: padding .5s ease, flex .5s ease, color .2s ease-in .3s;
+        &:hover {
+            color: #ffa502;
+        }
+    }
+}
