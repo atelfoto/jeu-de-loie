@@ -1,5 +1,10 @@
 {
     "gitflow4code.features": [],
-    "liveSassCompile.settings.generateMap": true,
-    "gitflow4code.releases": []
+    "liveSassCompile.settings.generateMap": false,
+    "gitflow4code.releases": [
+        {
+            "name": "release/release2",
+            "base": "develop"
+        }
+    ]
 }
