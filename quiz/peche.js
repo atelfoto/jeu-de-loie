@@ -12,16 +12,16 @@ class Question {
 
 }
 let questions = [
-    new Question("1. Sous qu’elle nom est née DAN-AR-BRAZ ?", ["Daniel Le Bras", "Alan Stivel", ""], "Daniel Le Bras"),
-    new Question("1. En quelle année est né DAN-AR-BRAZ ?", ["1939", "1957", "1949"], "1957"),
-    new Question("1. En quel année fut crée le festival de Cornouaille ?", ["1947", "1923", "1978"], "1923"),
-    new Question("1. •	En quelle année a t’on fêté les 70 ans du bagad de quimper ?", ["2017", "2019", "2015"], "2019"),
-    new Question("1. •	Combien de jours  dures le festival de Cornouaille ?", ["6 jours", "4 jours", "5 jours"], "6 jours"),
-    new Question("1. •	Le festival  la vie en reuz 2021 se déroulera ou?", ["Concarneau", "Douarnenez", "Quimper"], "Douarnenez"),
-    new Question("1. •	Depuis quelle année le festival la vie en reuz existe tel ?", ["2010", "2014", "2012"], "2012"),
-    new Question("1. •	Quels sont les deux instruments principaux de la musique bretonne ?", ["Le Biniou", "La Cornemuse", "La Bombarde"], "Le Biniou"),
-    new Question("1. •	Quel métier Philippe Poupon  né à Quimper fait-il ?", ["Plongeur", "Navigateur", ""], "Navigateur"),
-    new Question("1. •	Quel  est le surnon de JEAN LE CAM ?", ["Le Roi Jean", "Le Dauphin", "Le Roi Richard"], "Le Roi Jean"),
+    new Question("1: Combien y a-t-il de navire qui pêche dans les eaux de la bretagne ?", ["354", "543", "435"], "354"),
+    new Question("2: Combien de tonne de poisson sont débarqué par mois ?", ["49236", "53236", "58236"], "53236"),
+    new Question("3: Combien de millions d’euros rapporte l’ensemble de la pêche cornouaillaise en 2019 ?", ["140,9 millions", "120 millions", "130,9 millions"], "140,9 millions"),
+    new Question("4: Combien d’emploi dans le mareyage ?", ["500 emplois", "780 emplois", "850 emplois"], "780 emplois"),
+    new Question("5: Combien d’employé dépendant directement de la filière pêche ?", ["5000", "5500", "6000"], "5500"),
+    new Question("6: Combien des achats réalisés par des locaux ?", ["91%", "85%", "80%"], "91%"),
+    new Question("7: Quel place de pêche fraiche en France ?", ["1er", "2eme", "3eme"], "1er"),
+    new Question("8: Combien en pourcentage de la pêche fraiche française ?", ["25%", "30%", "35%"], "25%"),
+    new Question("9: Combien en pourcentage de la pêche fraiche bretonne ?", ["40%", "50%", "60%"], "50%"),
+
 
 ];
 class Quiz {
