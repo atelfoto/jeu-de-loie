@@ -1,10 +1,5 @@
 {
-    "gitflow4code.features": [
-        {
-            "name": "feature/artisanat",
-            "base": "develop"
-        }
-    ],
+    "gitflow4code.features": [],
     "liveSassCompile.settings.generateMap": true,
     "gitflow4code.releases": []
 }
