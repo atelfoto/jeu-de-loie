@@ -1,0 +1,127 @@
+/* main */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    // text-align: center;
+}
+
+body {
+    // display: grid;
+    // align-items: center;
+    // justify-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    background: #2f3542;
+    // color: #000;
+    color: #404040;
+    font-family: 'Helvetica', Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+h1 {
+    margin-bottom: 1rem;
+    // text-transform: uppercase;
+    text-transform: capitalize;
+    font-variant-caps: small-caps;
+    @include respond-above(sm) {
+        font-size: 3rem;
+        margin-bottom: 3rem;
+    }
+    span,
+    i {
+        color: #ffa502;
+    }
+}
+
+h2 {
+    transition: 1.5s;
+}
+
+h3 {
+    color: #ffa502;
+    font-size: 1.5rem;
+    margin-top: 21px;
+    margin-bottom: 21px;
+}
+
+.questions {
+    width: calc(100vw - 20px);
+    min-height: 160px;
+    margin-right: auto;
+    margin-left: auto;
+    @include respond-above(sm) {
+        width: 500px;
+        height: 100px;
+    }
+    @media (max-height: 411px) {
+        min-height: 60px;
+    }
+    position: relative;
+    line-height: 2rem;
+}
+
+// .container {
+.choices {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem auto 1rem;
+    width: calc(100vw - 8px);
+    @include respond-above(sm) {
+        width: 500px;
+        margin: 3rem auto 3rem;
+    }
+    button {
+        width: calc(100vw - .8rem);
+        @include respond-above(sm) {
+            width: 200px;
+            flex: 1 0 95%;
+            // flex: 1 0 45%;
+            height: 80px;
+        }
+        @media screen and (max-height: 768px) {
+            height: 60px;
+        }
+        height: 80px;
+        border-radius: 5px;
+        cursor: pointer;
+        border: none;
+        margin: 0.4rem;
+        outline: none;
+        background: #dfe4ea;
+        user-select: none;
+        font-weight: 600;
+        &:hover {
+            background: #ffa502;
+            transition: 0.5s;
+        }
+        &:active {
+            transform: scale(0.9);
+            transition: transform 0.1s;
+        }
+        p {
+            font-size: 1.3rem;
+        }
+    }
+}
+
+// }
+#progress {
+    font-size: 1.3rem;
+    color: #ffa502;
+}
+
+.logo {
+    display: none;
+    @include respond-above(sm) {
+        margin-top: 10px;
+        margin-left: 10px;
+        position: absolute;
+        display: block;
+        z-index: 100;
+    }
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="./favicon.ico" type="image/x-icon" rel="icon" />
+    <link href="./favicon.ico" type="image/x-icon" rel="shortcut icon" />
+    <title>Quiz - Culinaire Breton</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link href="./main.css" rel="stylesheet">
+</head>
+
+<body>
+    <a href="https://www.clps.net/centres/fiche/nom-quimper/id-2" target="_blank" class="logo">
+        <img class="log" src="../images/clps-logo.jpg" alt="">
+    </a>
+    <div class="header masthead">
+        <a href="#" class="hide-sidebar-toggle" title="ouvrir ou fermer le menu">
+            <svg xmlns="http://www.w3.org/2000/svg" width=50 height="50" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+                d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+            </svg>
+        </a>
+    </div>
+    <!-- <div class="container content"> -->
+    <div class="content">
+        <div id="quiz" class="main-area">
+            <h1>
+                <span>Q</span>uiz <span>C</span>ulinaire
+                <i class="far fa-question-circle"></i>
+                <svg width="50" class="far  fa-question-circle" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="question-circle" class="svg-inline--fa fa-question-circle fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M504 256c0 136.997-111.043 248-248 248S8 392.997 8 256C8 119.083 119.043 8 256 8s248 111.083 248 248zM262.655 90c-54.497 0-89.255 22.957-116.549 63.758-3.536 5.286-2.353 12.415 2.715 16.258l34.699 26.31c5.205 3.947 12.621 3.008 16.665-2.122 17.864-22.658 30.113-35.797 57.303-35.797 20.429 0 45.698 13.148 45.698 32.958 0 14.976-12.363 22.667-32.534 33.976C247.128 238.528 216 254.941 216 296v4c0 6.627 5.373 12 12 12h56c6.627 0 12-5.373 12-12v-1.333c0-28.462 83.186-29.647 83.186-106.667 0-58.002-60.165-102-116.531-102zM256 338c-25.365 0-46 20.635-46 46 0 25.364 20.635 46 46 46s46-20.636 46-46c0-25.365-20.635-46-46-46z"></path></svg>
+            </h1>
+            <div class="questions">
+                <h2 id="question"></h2>
+            </div>
+            <h3 id="score"></h3>
+            <div class="choices">
+                <button id="guess0" class="btn">
+                    <p id="choice0"></p>
+                </button>
+                <button id="guess1" class="btn">
+                    <p id="choice1"></p>
+                </button>
+                <button id="guess2" class="btn">
+                    <p id="choice2"></p>
+                </button>
+                <!-- <button id="guess3" class="btn">
+                    <p id="choice3"></p>
+                </button> -->
+            </div>
+            <p id="progress"></p>
+        </div>
+        <div class="sidebar">
+            <h3>Quiz ?</h3>
+            <nav class="example-menu">
+                <ul>
+                    <li><a href="../index.html">Jeu de l'Oie</a></li>
+                    <li><a href="./index.html">Tourisme</a></li>
+                    <li><a href="./culinaire.html">Culinaire</a></li>
+                    <li><a href="./artisanal.html">Artisanal</a></li>
+                    <li><a href="./peche.html">La Pêche</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="footer">
+        <p>
+            <b>Conception</b>&nbsp;: mouahamadi zoë amantine morgane philippe véronique roxane adrien felipe<br>
+        </p>
+    </div>
+
+    <script src="../js/lib/jquery-2.1.3.min.js"></script>
+    <script src="../js/all-menu.js"></script>
+    <script src="./culinaire.js" type="text/javascript"></script>
+</body>
+
+</html>
