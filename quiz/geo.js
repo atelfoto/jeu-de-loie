@@ -12,16 +12,15 @@ class Question {
 
 }
 let questions = [
-    new Question("1. Sous qu’elle nom est née DAN-AR-BRAZ ?", ["Daniel Le Bras", "Alan Stivel", ""], "Daniel Le Bras"),
-    new Question("1. En quelle année est né DAN-AR-BRAZ ?", ["1939", "1957", "1949"], "1957"),
-    new Question("1. En quel année fut crée le festival de Cornouaille ?", ["1947", "1923", "1978"], "1923"),
-    new Question("1. •	En quelle année a t’on fêté les 70 ans du bagad de quimper ?", ["2017", "2019", "2015"], "2019"),
-    new Question("1. •	Combien de jours  dures le festival de Cornouaille ?", ["6 jours", "4 jours", "5 jours"], "6 jours"),
-    new Question("1. •	Le festival  la vie en reuz 2021 se déroulera ou?", ["Concarneau", "Douarnenez", "Quimper"], "Douarnenez"),
-    new Question("1. •	Depuis quelle année le festival la vie en reuz existe tel ?", ["2010", "2014", "2012"], "2012"),
-    new Question("1. •	Quels sont les deux instruments principaux de la musique bretonne ?", ["Le Biniou", "La Cornemuse", "La Bombarde"], "Le Biniou"),
-    new Question("1. •	Quel métier Philippe Poupon  né à Quimper fait-il ?", ["Plongeur", "Navigateur", ""], "Navigateur"),
-    new Question("1. •	Quel  est le surnon de JEAN LE CAM ?", ["Le Roi Jean", "Le Dauphin", "Le Roi Richard"], "Le Roi Jean"),
+    new Question("1. En quelle année fut créer le festival de Cornouaille ?", ["1947", "1923", "1958"], "1923"),
+    new Question("2. Quel pourcentage représente la filière agroalimentaire par rapport à l’ensemble des emplois industriels de l’agglomération ?", ["50%", "30%", "60%"], "50%"),
+    new Question("3. Quel évènement se déroule chaque été à Concarneau ?", ["1.Les vieilles charrues", "2.Les filets bleus", "3.Le festival de Cornouaille"], "2.Les filets bleus"),
+    new Question("4. La Cornouaille est bordée par 451km de côtes.", ["Vrai", "Faux", null], "Vrai"),
+    new Question("5. Quelle est la préfecture du Finistère ?", ["1. Quimper", "2. Brest", "3. Concarneau"], "1. Quimper"),
+    new Question("6. Quel est le surnom du port de pêche du Guilvinec ?", ["1.Penn sardines", "2.Petite mer", "3.Coeur de la pêche"], "3.Coeur de la pêche"),
+    new Question("7. Quel est le premier port de pêche français artisanale ?", ["1.Port de Concarneau", "2.Port de Douarnenez", "3.Port de Guilvinec"], "3.Port de Guilvinec"),
+    new Question("8. Quelle a été la durée de construction du phare d’Eckmühl ?", ["1. 2 ans", "2. 4 ans", "3. 6 ans"], "2. 4 ans"),
+    new Question("9. A quelle hauteur culminent les flèches de la cathédrale Saint-Corentin de Quimper?", ["1. 69 mètres", "2. 72 mètres", "3. 75 mètres"], "3. 75 mètres"),
 
 ];
 class Quiz {
