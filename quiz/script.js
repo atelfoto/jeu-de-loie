@@ -12,7 +12,7 @@ class Question {
 
 }
 let questions = [
-    new Question("1. Sous qu’elle nom est née DAN-AR-BRAZ ?", ["Daniel Le Bras", "Alan Stivel", ""], "Daniel Le Bras"),
+    new Question("1. Sous qu’elle nom est née DAN-AR-BRAZ ?", ["Daniel Le Bras", "Alan Stivel", "Pierre Le Gloan"], "Daniel Le Bras"),
     new Question("2. En quelle année est né DAN-AR-BRAZ ?", ["1939", "1957", "1949"], "1957"),
     new Question("3. En quel année fut crée le festival de Cornouaille ?", ["1947", "1923", "1978"], "1923"),
     new Question("4. En quelle année a t’on fêté les 70 ans du bagad de quimper ?", ["2017", "2019", "2015"], "2019"),
@@ -20,7 +20,7 @@ let questions = [
     new Question("6. Le festival  la vie en reuz 2021 se déroulera ou?", ["Concarneau", "Douarnenez", "Quimper"], "Douarnenez"),
     new Question("7. Depuis quelle année le festival la vie en reuz existe tel ?", ["2010", "2014", "2012"], "2012"),
     new Question("8. Quels sont les deux instruments principaux de la musique bretonne ?", ["Le Biniou", "La Cornemuse", "La Bombarde"], "Le Biniou"),
-    new Question("9. Quel métier Philippe Poupon  né à Quimper fait-il ?", ["Plongeur", "Navigateur", ""], "Navigateur"),
+    new Question("9. Quel métier Philippe Poupon  né à Quimper fait-il ?", ["Plongeur", "Navigateur", "Politique"], "Navigateur"),
     new Question("10. Quel  est le surnon de JEAN LE CAM ?", ["Le Roi Jean", "Le Dauphin", "Le Roi Richard"], "Le Roi Jean"),
 
 ];

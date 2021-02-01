@@ -55,7 +55,8 @@ const display = {
     endQuiz: function() {
         let endQuizHTML = `
         <h1>Quiz terminé !</h1>
-        <h3>Votre score est de : ${quiz.score} / ${quiz.questions.length}</h3>`;
+        <h3>Votre score est de : ${quiz.score} / ${quiz.questions.length}</h3>
+        <a href="./artisanal.html">Quiz suivant Artisanable en Cornouailles</a>`;
         this.elementShown('quiz', endQuizHTML);
     },
     question: function() {
