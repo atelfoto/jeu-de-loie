@@ -1,11 +1,15 @@
 .header {
     display: flex;
-    justify-content: flex-end;
+    // justify-content: flex-end;
+    justify-content: space-between;
     a {
         color: #fff;
         transition: padding .5s ease, flex .5s ease, color .2s ease-in .3s;
         &:hover {
             color: #ffa502;
         }
+    }
+    .hide-sidebar-toggle {
+        padding-top: 11px;
     }
 }

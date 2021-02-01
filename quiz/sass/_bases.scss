@@ -7,6 +7,15 @@
     // text-align: center;
 }
 
+body,
+// .main-area::before,
+.header::before,
+.sidebar::before,
+.footer::before,
+.box::before {
+    background: url("../quiz/images/fond.jpg") 0 / cover fixed;
+}
+
 body {
     // display: grid;
     // align-items: center;
@@ -15,22 +24,82 @@ body {
     flex-direction: column;
     justify-content: space-between;
     min-height: 100vh;
-    background: #2f3542;
+    // background: #2f3542;
     // color: #000;
-    color: #404040;
+    // color: #404040;
+    color: #fff;
     font-family: 'Helvetica', Arial, sans-serif;
     font-size: 18px;
     line-height: 1.5;
 }
 
+.box,
+.header,
+.sidebar,
+// .main-area,
+.footer {
+    position: relative;
+    // background: hsla(0, 0%, 100%, .3);
+    // background: rgba(0, 0, 0, 0.3);
+    // background: #0000004d;
+    background: #2f35424d;
+    overflow: hidden;
+    box-shadow: 0 0 0 1px hsla(0, 0%, 100%, .3) inset, 0 .5em 1em rgba(0, 0, 0, 0.6);
+    text-shadow: 0 1px 1px hsla(0, 0%, 100%, .3);
+}
+
+.box::before,
+.header::before,
+.sidebar::before,
+// .main-area::before,
+.footer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: -30px;
+    z-index: -1;
+    filter: blur(15px);
+}
+
+.header {
+    max-height: 72px;
+}
+
+.box {
+    border-radius: .3em;
+    @include respond-above(xs) {
+        width: 560px;
+    }
+    margin: auto;
+    border: 1px solid;
+    padding: 15px;
+}
+
+@include respond-below(xs) {
+    .sidebar {
+        position: absolute;
+        top: 74px;
+        height: calc(100vh - 183px);
+        width: calc(100vw / 2);
+    }
+}
+
 h1 {
-    margin-bottom: 1rem;
+    // margin-bottom: 1rem;
     // text-transform: uppercase;
     text-transform: capitalize;
     font-variant-caps: small-caps;
-    @include respond-above(sm) {
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 69px;
+    padding-left: 5px;
+    @include respond-above(lg) {
         font-size: 3rem;
-        margin-bottom: 3rem;
+        // margin-bottom: 1.5rem;
+        // margin-top: 1.5rem;
     }
     span,
     i {
@@ -49,13 +118,28 @@ h3 {
     margin-bottom: 21px;
 }
 
+#quiz a {
+    color: #ffa502;
+    display: block;
+    text-decoration: none;
+    &:hover {
+        color: #fff;
+        transition: 0.5s;
+    }
+}
+
 .questions {
-    width: calc(100vw - 20px);
+    @include respond-above(sm) {
+        width: calc(100vw - 20px);
+    }
     min-height: 160px;
     margin-right: auto;
     margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     @include respond-above(sm) {
-        width: 500px;
+        width: 520px;
         height: 100px;
     }
     @media (max-height: 411px) {
@@ -70,7 +154,9 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     margin: 1rem auto 1rem;
-    width: calc(100vw - 8px);
+    @include respond-above(sm) {
+        width: calc(100vw - 8px);
+    }
     @include respond-above(sm) {
         width: 500px;
         margin: 3rem auto 3rem;
@@ -117,11 +203,18 @@ h3 {
 
 .logo {
     display: none;
-    @include respond-above(sm) {
-        margin-top: 10px;
-        margin-left: 10px;
-        position: absolute;
+    @include respond-above(xs) {
+        // margin-top: 10px;
+        // margin-left: 10px;
+        // height: 58px;
+        height: 72px;
+        width: auto;
+        // position: absolute;
         display: block;
         z-index: 100;
     }
+}
+
+img.logo {
+    height: 72px;
 }

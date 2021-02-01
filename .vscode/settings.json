@@ -1,5 +1,6 @@
 {
     "gitflow4code.features": [],
     "liveSassCompile.settings.generateMap": false,
-    "gitflow4code.releases": []
+    "gitflow4code.releases": [],
+    "liveServer.settings.port": 5501
 }
