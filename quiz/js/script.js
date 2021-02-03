@@ -19,7 +19,8 @@ let questions = [
     new Question("5. Combien de jours dure le festival de Cornouaille ?", ["6 jours", "4 jours", "5 jours"], "6 jours"),
     new Question("6. Où se déroulera le festival La vie en Reuz en 2021 ?", ["Concarneau", "Douarnenez", "Quimper"], "Douarnenez"),
     new Question("7. Depuis quelle année le festival \"La vie en reuz\" existe t'il?", ["2010", "2014", "2012"], "2012"),
-    new Question("8. Quels sont les deux instruments principaux de la musique bretonne ?", ["Le Biniou", "La Cornemuse", "La Bombarde"], "Le Biniou"),
+    new Question("8. Quel est l'instrument principal de la musique bretonne ?", ["Le Biniou", "La Cornemuse", "La Bombarde"], "Le Biniou"),
+    // new Question("8. Quels sont les deux instruments principaux de la musique bretonne ?", ["Le Biniou", "La Cornemuse", "La Bombarde"], "Le Biniou"),
     new Question("9. Quel métier Philippe Poupon  né à Quimper exerce t-il ?", ["Plongeur", "Navigateur", "Politique"], "Navigateur"),
     new Question("10. Quel  est le surnom de JEAN LE CAM ?", ["Le Roi Jean", "Le Dauphin", "Le Roi Richard"], "Le Roi Jean"),
 
