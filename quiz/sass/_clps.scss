@@ -73,7 +73,7 @@
     }
     .content {
         display: flex;
-        height: calc(100vh - 129px);
+        min-height: calc(100vh - 129px);
         // height: 665px;
         // height: calc(100vh - 115px);// 19:46
     }
