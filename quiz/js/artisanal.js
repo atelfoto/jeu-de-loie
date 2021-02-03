@@ -64,10 +64,10 @@ const display = {
     },
     endQuiz: function() {
         let endQuizHTML = `
-        <h1>Quizz terminé !</h1>
+        <h1><span>Q</span>uizz terminé !</h1>
         <h3>Votre score est de : ${quiz.score} / ${quiz.questions.length}</h3>
-        <a href="./peche.html">Quiz suivant La pêche en Cornouailles</a>
-        <h3>Les Bonnes Réponses</h3>
+        <a class="next" href="./peche.html">Quiz suivant La pêche en Cornouailles</a>
+        <h3 class="reply">Les Bonnes Réponses</h3>
         <ol class="resultat">
         <li>Alan Stivel, <span>Henriot</span>, Erwan Berthou</li>
         <li>1490, <span>1690</span>, 1790</li>

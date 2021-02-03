@@ -51,10 +51,10 @@ const display = {
     },
     endQuiz: function() {
         let endQuizHTML = `
-        <h1>Quizz terminé !</h1>
+        <h1><span>Q</span>uizz terminé !</h1>
         <h3>Votre score est de : ${quiz.score} / ${quiz.questions.length}</h3>
-        <a href="./geo.html">Quiz suivant La Géographie en Cornouailles</a>
-        <h3>Les Bonnes Réponses</h3>
+        <a class="next" href="./geo.html">Quiz suivant La Géographie en Cornouailles</a>
+        <h3 class="reply">Les Bonnes Réponses</h3>
         <ol class="resultat">
         <li><span>354</span>, 543, 435</li>
         <li>49 236 tonnes, <span>53 236 tonnes</span>, 58 236 tonnes</li>

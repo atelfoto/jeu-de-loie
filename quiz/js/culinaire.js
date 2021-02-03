@@ -52,10 +52,10 @@ const display = {
     },
     endQuiz: function() {
         let endQuizHTML = `
-        <h1>Quizz terminé !</h1>
+        <h1><span>Q</span>uizz terminé !</h1>
         <h3>Votre score est de : ${quiz.score} / ${quiz.questions.length}</h3>
-        <a href="./artisanal.html">Quiz suivant Artisanal en bretagne</a>
-        <h3>Les Bonnes Réponses</h3>
+        <a class="next" href="./artisanal.html">Quiz suivant Artisanal en bretagne</a>
+        <h3 class="reply">Les Bonnes Réponses</h3>
         <ol class="resultat">
         <li><span>le kouign-amann</span>, le gâteau aux yaourt</li>
         <li><span>Une billig</span>, Un four, Une poêle</li>
