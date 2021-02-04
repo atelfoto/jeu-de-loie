@@ -53,15 +53,19 @@ const display = {
     },
     endQuiz: function() {
         let endQuizHTML = `
-        <h1>Quizz terminé !</h1>
+        <h1><span>Q</span>uizz terminé !</h1>
         <h3>Votre score est de : ${quiz.score} / ${quiz.questions.length}</h3>
-        <h3>Les Bonnes Réponses</h3>
+        <h3 class="reply">Les Bonnes Réponses</h3>
         <ol class="resultat">
         <li>3200 M2, <span>1700 M2</span>, 10000 M2</li>
         <li>Quimper, <span>Concarneau</span>, Bennobet</li>
         <li>Le porc, la viande bovine, <span>les végétaux</span></li>
         <li>1880, <span>1924</span>, 2006</li>
+<<<<<<< HEAD
         <li>12 millions de personnes, <span>22 millions de personnes</span>, 32millions de personnes</li>
+=======
+        <li>12 millions de personnes, <span>22 millions de personnes</span>, 32millions de personnes</li> 
+>>>>>>> 63f61342ef1cdd3bbd22ef0de6dbe0af9c09e5b5
         <li><span>Herta</span>, Wagner, Henaff</li>
         <li>1er, 2eme, <span>3eme</</li>
         <li><span>125 000 hectares</span>, 268 000 hectares, 79 500 hectares</li>
