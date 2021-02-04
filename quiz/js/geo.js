@@ -52,7 +52,7 @@ const display = {
         let endQuizHTML = `
         <h1><span>Q</span>uizz terminé !</h1>
         <h3>Votre score est de : ${quiz.score} / ${quiz.questions.length}</h3>
-        <a class="next" href="./option.html">Quiz suivant Option</a>
+        <a class="next" href="./option.html">Quiz suivant</a>
         <h3 class="reply">Les Bonnes Réponses</h3>
         <ol class="resultat">
         <li>1947, <span>1923</span>, 1958</li>

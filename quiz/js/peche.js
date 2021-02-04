@@ -53,7 +53,7 @@ const display = {
         let endQuizHTML = `
         <h1><span>Q</span>uizz terminé !</h1>
         <h3>Votre score est de : ${quiz.score} / ${quiz.questions.length}</h3>
-        <a class="next" href="./geo.html">Quiz suivant La Géographie en Cornouailles</a>
+        <a class="next" href="./geo.html">Quiz suivant</a>
         <h3 class="reply">Les Bonnes Réponses</h3>
         <ol class="resultat">
         <li><span>354</span>, 543, 435</li>
