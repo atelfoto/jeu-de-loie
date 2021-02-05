@@ -21,8 +21,7 @@ let questions = [
     new Question("7. Le lait ribot peut être bu comme du lait normal ou bien dans un bol avec une galette dedans.Mais qu’est ce que c’est réellement?", ["Du lait fermenté", "Du lait de chèvre", "Du lait de truie"], "Du lait fermenté"),
     new Question("8. A partir de quel jus de fruit est fabriqué le pommeau?", ["Orange", "Cerise", "Pomme"], "Pomme"),
     new Question("9. Quel est l’autre nom du lait ribot ?", ["Lactosérum", "Babeurre", "Petit lait"], "Babeurre"),
-    new Question("10. Qui sont les Jhonnies ?", ["Des producteurs d’oignons", "Des membres du fan-club breton de Johnny Hallyday", "Des éleveurs de porc de la race John Bent"], "Des producteurs d’oignons"),
-    new Question("11. Avec quoi est fabriqué le chouchen ?", ["Caramel au beurre salé", "Jus de chaussette", "Miel fermenté"], "Miel fermenté"),
+    new Question("10. Avec quoi est fabriqué le chouchen ?", ["Caramel au beurre salé", "Jus de chaussette", "Miel fermenté"], "Miel fermenté"),
 
 ];
 class Quiz {
@@ -66,7 +65,7 @@ const display = {
         <li><span>Du lait fermenté</span>, Du lait de chèvre, Du lait de truie</li>
         <li>Orange, Cerise, <span>Pomme</span></li>
         <li>Lactosérum, <span>Babeurre</span>, Petit lait</li>
-        <li><span>Des producteurs d’oignons</span>, Des membres du fan-club breton de Johnny Hallyday, Des éleveurs de porc de la race John Bent</li>
+        
         <li>Caramel au beurre salé, Jus de chaussette, <span>Miel fermenté</span></li>`;
         this.elementShown('quiz', endQuizHTML);
     },

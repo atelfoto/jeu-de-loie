@@ -417,7 +417,7 @@ img.logo {
 }
 
 .sidebar {
-  padding: .5em 1.4em 1em;
+  padding: .5em 1em 1em;
   overflow: hidden;
   -webkit-transition: padding .5s ease, color .2s ease-in .3s, -webkit-box-flex .5s ease;
   transition: padding .5s ease, color .2s ease-in .3s, -webkit-box-flex .5s ease;

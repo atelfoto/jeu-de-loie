@@ -21,6 +21,13 @@ let questions = [
     new Question("7: Quelle est la place de la pêche fraiche en France ?", ["1er", "2eme", "3eme"], "1er"),
     new Question("8: Quel pourcentage représente la pêche fraiche française ?", ["25%", "30%", "35%"], "25%"),
     new Question("9: Quel pourcentage représente la pêche fraiche bretonne ?", ["40%", "50%", "60%"], "50%"),
+    new Question("10. Combien de navires ont été construits par l’entreprise Piriou ?", ["250", "500", "350"], "500"),
+    new Question("11. Quel âge a l’entreprise Piriou ?", ["70 ans", "55 ans", "60 ans"], "55 ans"),
+    new Question("12. L’entreprise Piriou est basée à Concarneau", ["Vrai", "Faux", null], "Vrai"),
+    new Question("13. Quelle est la principale ville de Cornouaille au niveau de l’industrie navale ?", ["Bénodet", "Concarneau", "Quimper"], "Concarneau"),
+    new Question("14. Combien de salariés compte l’entreprise Monique Ranou basée à Quimper ?", ["315", "337", "513"], "513"),
+    new Question("15. Quel âge a Monique Ranou ?", ["Plus de 80 années", "Plus de 110 années", "Plus de 90 années"], "Plus de 110 années"),
+    new Question("16. Quel est le premier groupe agroalimentaire de Quimper Cornouaille ?", ["Meralliance", "Bigard", "Entremont"], "Bigard"),
 
 
 ];
@@ -53,7 +60,7 @@ const display = {
         let endQuizHTML = `
         <h1><span>Q</span>uizz terminé !</h1>
         <h3>Votre score est de : ${quiz.score} / ${quiz.questions.length}</h3>
-        <a class="next" href="./geo.html">Quiz suivant</a>
+        <a class="next" href="./culture.html">Quiz suivant</a>
         <h3 class="reply">Les Bonnes Réponses</h3>
         <ol class="resultat">
         <li><span>354</span>, 543, 435</li>
@@ -65,6 +72,12 @@ const display = {
         <li><span>1er</span>, 2eme, 3eme</li>
         <li><span>25%</span>, 30%, 35%</li>
         <li>40%, <span>50%</span>, 60%</li>
+        <li>250, <span>500</span>, 350</li>
+        <li>70 ans, <span>55 ans</span>, 60 ans</li>
+        <li>Bénodet, <span>Concarneau</span>, Quimper</li>
+        <li>315, 337, <span>513</span></li>
+        <li>Plus de 80 années, <span>Plus de 110 années</span></li>
+        <li>Meralliance, <span>Bigard</span>, Entremont</li>
         </ol>
         `;
         this.elementShown('quiz', endQuizHTML);

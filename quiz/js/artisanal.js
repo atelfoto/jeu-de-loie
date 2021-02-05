@@ -27,14 +27,7 @@ let questions = [
     new Question("12. Que signifie « Kouign Amann » ?", ["Gâteau au beurre", "Crêpe au beurre", "Crêpe au sucre"], "Gâteau au beurre"),
     new Question("13. Le « Kouign amann » est une spécialité de Douarnenez", ["Vrai", "Faux", null], "Vrai"),
     new Question("14. Quelle est la spécialité de Locronan ?", ["La peinture sur toile", "La verrerie", "La Ferronnerie"], "La varrerie"),
-    new Question("15. La ville de Locronan est connue pour ses illuminations durant la période de Noel ", ["Vrai", "Faux", null], "Vrai"),
-    new Question("16. Combien de navires ont été construits par l’entreprise Piriou ?", ["250", "500", "350"], "500"),
-    new Question("17. Quel âge a l’entreprise Piriou ?", ["70 ans", "55 ans", "60 ans"], "55 ans"),
-    new Question("18. L’entreprise Piriou est basée à Concarneau", ["Vrai", "Faux", null], "Vrai"),
-    new Question("19. Quelle est la principale ville de Cornouaille au niveau de l’industrie navale ?", ["Bénodet", "Concarneau", "Quimper"], "Concarneau"),
-    new Question("20. Combien de salariés compte l’entreprise Monique Ranou basée à Quimper ?", ["315", "337", "513"], "513"),
-    new Question("21. Quel âge a Monique Ranou ?", ["Plus de 80 années", "Plus de 110 années", "Plus de 90 années"], "Plus de 110 années"),
-    new Question("22. Quel est le premier groupe agroalimentaire de Quimper Cornouaille ?", ["Meralliance", "Bigard", "Entremont"], "Bigard"),
+
 
 ];
 class Quiz {
@@ -83,13 +76,6 @@ const display = {
         <li><span>Gâteau au beurre</span>, Crêpe au beurre, Crêpe au sucre</li>
         <li><span>Vrai</span>, Faux</li>
         <li>La peinture sur toile, <span>La verrerie</span>, La Ferronnerie</li>
-        <li><span>Vrai</span>, Faux</li>
-        <li>250, <span>500</span>, 350</li>
-        <li>70 ans, <span>55 ans</span>, 60 ans</li>
-        <li>Bénodet, <span>Concarneau</span>, Quimper</li>
-        <li>315, 337, <span>513</span></li>
-        <li>Plus de 80 années, <span>Plus de 110 années</span></li>
-        <li>Meralliance, <span>Bigard</span>, Entremont</li>
         </ol>`;
         this.elementShown('quiz', endQuizHTML);
     },
