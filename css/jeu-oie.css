@@ -75,6 +75,7 @@ body {
     width: 249px;
     height: 236px;
     visibility: hidden;
+    z-index: 3;
 }
 
 #dessincase4 {
@@ -84,6 +85,7 @@ body {
     width: 515px;
     height: 242px;
     visibility: hidden;
+    z-index: 3;
 }
 
 #dessincase5 {
@@ -93,6 +95,7 @@ body {
     width: 456px;
     height: 242px;
     visibility: hidden;
+    z-index: 3;
 }
 
 #dessincase9 {
@@ -102,6 +105,7 @@ body {
     width: 456px;
     height: 242px;
     visibility: hidden;
+    z-index: 3;
 }
 
 #dessincase18 {
@@ -111,6 +115,7 @@ body {
     width: 456px;
     height: 242px;
     visibility: hidden;
+    z-index: 3;
 }
 
 #dessincase19 {
@@ -120,6 +125,7 @@ body {
     width: 456px;
     height: 242px;
     visibility: hidden;
+    z-index: 3;
 }
 
 #dessincase22 {
@@ -127,6 +133,7 @@ body {
     left: 270px;
     top: 0px;
     visibility: hidden;
+    z-index: 3;
 }
 
 #dessincase24 {
@@ -136,6 +143,7 @@ body {
     width: 700px;
     height: 242px;
     visibility: hidden;
+    z-index: 3;
 }
 
 #dessincase25 {
@@ -145,6 +153,7 @@ body {
     width: 700px;
     height: 242px;
     visibility: hidden;
+    z-index: 3;
 }
 
 
@@ -368,6 +377,7 @@ body {
 #lecture25 {
     top: 379px;
     left: 694px;
+    z-index: 4;
 }
 
 #croix {
@@ -377,6 +387,7 @@ body {
     left: 728px;
     width: 47px;
     height: 65px;
+    z-index: 4;
 }
 
 #croix2 {
@@ -509,6 +520,7 @@ body {
     border: 8px solid var(--main-color);
     /* border: 8px solid #cf6; */
     visibility: visible;
+    z-index: 3;
 }
 
 #numero1 {
@@ -738,7 +750,16 @@ body {
 #numero24 {
     width: 52px;
     height: 30px;
-    opacity: 0;
+    /* opacity: 0; */
+    background-color: #fff;
+    color: red;
+    border-radius: 20px;
+    border: 1px solid #000;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 2;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.6);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 #numero25 {
