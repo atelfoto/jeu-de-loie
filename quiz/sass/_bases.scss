@@ -140,6 +140,7 @@ h1 {
     text-align: center;
     line-height: 69px;
     padding-left: 5px;
+    padding-right: 10px;
     @include respond-above(lg) {
         font-size: 3rem;
         // margin-bottom: 1.5rem;

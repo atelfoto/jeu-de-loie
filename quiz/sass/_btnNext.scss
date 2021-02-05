@@ -14,13 +14,14 @@
     }
     @media screen and (max-height: 768px) {
         height: 60px;
+        width: calc(100vw - 30px);
     }
     height: 80px;
     line-height: 3;
     border-radius: 5px;
     cursor: pointer;
     border: none;
-    margin: 0.4rem;
+    // margin: 0.4rem;
     outline: none;
     background: #dfe4ea;
     user-select: none;
