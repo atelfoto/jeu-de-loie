@@ -14,19 +14,18 @@ class Question {
 // revoir la question 3 erreur dans la réponse
 let questions = [
     new Question("1: Quel artisan a inventé le bol prénom à oreilles ?", ["Alan Stivel", "Henriot", "Erwan Berthou"], "Henriot"),
-    new Question("2: Quand a été créée la faïencerie  Henriot à Quimper", ["1490", "1690", "1790"], "1690"),
-    new Question("3. Quelle est la date d’invention de la crêpe dentelle ?", ["1896", "2006", "1906"], "1886"),
-    new Question("4. Le crêpe dentelle est une crêpe bretonne très fine, roulée sur elle-même et croustillante", ["Vrai ", "Faux", null], "Vrai "),
-    new Question("5. Quel est l’ingrédient principal d’une crêpe dentelle ?", ["Du beurre ", "Du chocolat", "Du Lait"], "Du beurre "),
-    new Question("6. A l’aide de quel matériel cuit on une crêpe ?", ["Une bilig ", "Un four", "Une plaque"], "Une bilig"),
-    new Question("7. La crêpe complète est composée d’un œuf, de jambon et de fromage", ["Vrai", "Faux", null], "Vrai"),
-    new Question("8. Quelle est la spécialité de Pascal Jaouen ?", ["La Broderie d'art", "La cuisine", "Artisan Boulanger"], "La Broderie d'art"),
-    new Question("9. Où se trouve l’école de broderie d’art de Pascal Jaouen ?", ["Pont l'abbé", "Quimper", "Brest"], "Quimper"),
-    new Question("10. Quel est l’ingrédient principal du cidre breton ?", ["Poire ", "Pomme", "Mais"], "Pomme "),
-    new Question("11. Le cidre Kerné est élaboré à Pouldreuzic", ["Vrai", "Faux", null], "vrai"),
-    new Question("12. Que signifie « Kouign Amann » ?", ["Gâteau au beurre", "Crêpe au beurre", "Crêpe au sucre"], "Gâteau au beurre"),
-    new Question("13. Le « Kouign amann » est une spécialité de Douarnenez", ["Vrai", "Faux", null], "Vrai"),
-    new Question("14. Quelle est la spécialité de Locronan ?", ["La peinture sur toile", "La verrerie", "La Ferronnerie"], "La varrerie"),
+    new Question("2: Quand a été créée la faïencerie  Henriot à Quimper ?", ["1490", "1690", "1790"], "1690"),
+    new Question("3. Quelle est la date d’invention de la crêpe dentelle ?", ["1886", "2006", "1906"], "1886"),
+    new Question("4. Le crêpe dentelle est une crêpe bretonne très fine, roulée sur elle-même et croustillante :", ["Vrai ", "Faux", null], "Vrai "),
+    new Question("5. Quel est l’ingrédient principal d’une crêpe dentelle ?", ["Du beurre", "Du chocolat", "Du Lait"], "Du beurre"),
+    new Question("6. La crêpe complète est composée d’un œuf, de jambon et de fromage :", ["Vrai", "Faux", null], "Vrai"),
+    new Question("7. Quelle est la spécialité de Pascal Jaouen ?", ["La Broderie d'art", "La cuisine", "Artisan Boulanger"], "La Broderie d'art"),
+    new Question("8. Où se trouve l’école de broderie d’art de Pascal Jaouen ?", ["Pont l'abbé", "Quimper", "Brest"], "Quimper"),
+    new Question("9. Quel est l’ingrédient principal du cidre breton ?", ["Poire", "Pomme", "Mais"], "Pomme"),
+    new Question("10. Le cidre Kerné est élaboré à Pouldreuzic :", ["Vrai", "Faux", null], "Vrai"),
+    new Question("11. Que signifie « Kouign Amann » ?", ["Gâteau au beurre", "Crêpe au beurre", "Crêpe au sucre"], "Gâteau au beurre"),
+    new Question("12. Le « Kouign amann » est une spécialité de Douarnenez :", ["Vrai", "Faux", null], "Vrai"),
+    new Question("13. Quelle est la spécialité de Locronan ?", ["La peinture sur toile", "La verrerie", "La Ferronnerie"], "La verrerie"),
 
 
 ];
@@ -59,7 +58,7 @@ const display = {
         let endQuizHTML = `
         <h1><span>Q</span>uizz terminé !</h1>
         <h3>Votre score est de : ${quiz.score} / ${quiz.questions.length}</h3>
-        <a class="next" href="./peche.html">Quiz suivant</a>
+        <a class="next" href="./culinaire.html">Quiz suivant</a>
         <h3 class="reply">Les Bonnes Réponses</h3>
         <ol class="resultat">
         <li>Alan Stivel, <span>Henriot</span>, Erwan Berthou</li>
@@ -67,7 +66,6 @@ const display = {
         <li><span>1896</span>, 2006, 1906</li>
         <li><span>Vrai</span> , Faux</li>
         <li><span>Du beurre</span> , Du chocolat, Du Lait</li>
-        <li><span>Une bilig</span> , Un four, Une plaque</li>
         <li><span>Vrai</span>, Faux</li>
         <li><span>La Broderie d'art</span>, La cuisine, Artisan Boulanger</li>
         <li>Pont l'abbé, <span>Quimper</span>, Brest</li>
