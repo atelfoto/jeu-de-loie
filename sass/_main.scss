@@ -1,0 +1,86 @@
+h2 {
+    text-align: center;
+    /* font-size: 3rem; */
+    width: calc(1024px - 100px);
+}
+
+.header {
+    display: flex;
+    width: 1024px;
+    height: 118px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    color: var(--main-color);
+}
+
+.title {
+    text-decoration: none;
+    font-size: 3rem;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+a.title:hover,
+.bi:hover {
+    color: grey;
+    transition: 0.5s;
+}
+
+a.title:active,
+.bi:active {
+    transform: scale(0.9);
+    transition: transform 0.1s;
+    box-shadow: 0 0 0 0;
+}
+
+.header a {
+    color: var(--main-color);
+}
+
+.header p {
+    width: 100px;
+    display: flex;
+}
+
+.header p a {
+    margin-left: 10px;
+}
+
+.bi {
+    color: var(--main-color);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 8px 1px rgba(0, 0, 0, 0.52);
+}
+
+.logo {
+    margin-top: 10px;
+    margin-left: 10px;
+    position: absolute;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.fond {
+    min-width: 499px;
+}
+
+footer p {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.numero:hover,
+#croix:hover,
+.lecture {
+    cursor: pointer;
+}

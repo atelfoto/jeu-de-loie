@@ -16,12 +16,13 @@
         {
             "format": "expanded",
             "extensionName": ".css",
-            "savePath": "/quiz/css"
+            // "savePath": "/quiz/css"
+            "savePath": "/css"
         },
         {
             "extensionName": ".min.css",
             "format": "compressed",
-            "savePath": "/quiz/css"
+            "savePath": "/css"
         }
     ],
     "liveSassCompile.settings.excludeList": [
