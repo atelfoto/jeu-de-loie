@@ -41,6 +41,23 @@
     color: white;
 }
 
+.example-menu li a.active {
+    color: #ffa502;
+    font-style: italic;
+    cursor: default;
+}
+
+.example-menu a.active:hover,
+// .example-menu a:focus,
+.exemple-menu a.active {
+    color: #ffa502;
+    font-style: italic;
+    cursor: default;
+    background: transparent;
+    transform: none;
+    padding: .4em 0;
+}
+
 .footer-area {
     padding: .4em 1em;
     text-align: center;

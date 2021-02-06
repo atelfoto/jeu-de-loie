@@ -1,29 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
-.header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.header a {
-  color: #fff;
-  -webkit-transition: padding .5s ease, color .2s ease-in .3s, -webkit-box-flex .5s ease;
-  transition: padding .5s ease, color .2s ease-in .3s, -webkit-box-flex .5s ease;
-  transition: padding .5s ease, flex .5s ease, color .2s ease-in .3s;
-  transition: padding .5s ease, flex .5s ease, color .2s ease-in .3s, -webkit-box-flex .5s ease, -ms-flex .5s ease;
-}
-
-.header a:hover {
-  color: #ffa502;
-}
-
-.header .hide-sidebar-toggle {
-  padding-top: 11px;
-}
-
 /* main */
 * {
   -webkit-box-sizing: border-box;
@@ -348,6 +323,31 @@ img.logo {
   height: 72px;
 }
 
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header a {
+  color: #fff;
+  -webkit-transition: padding .5s ease, color .2s ease-in .3s, -webkit-box-flex .5s ease;
+  transition: padding .5s ease, color .2s ease-in .3s, -webkit-box-flex .5s ease;
+  transition: padding .5s ease, flex .5s ease, color .2s ease-in .3s;
+  transition: padding .5s ease, flex .5s ease, color .2s ease-in .3s, -webkit-box-flex .5s ease, -ms-flex .5s ease;
+}
+
+.header a:hover {
+  color: #ffa502;
+}
+
+.header .hide-sidebar-toggle {
+  padding-top: 11px;
+}
+
 #quiz a.next,
 .box.regle a.next {
   text-decoration: none;
@@ -446,6 +446,23 @@ img.logo {
   padding: .4em 1em;
   background: #333333;
   color: white;
+}
+
+.example-menu li a.active {
+  color: #ffa502;
+  font-style: italic;
+  cursor: default;
+}
+
+.example-menu a.active:hover,
+.exemple-menu a.active {
+  color: #ffa502;
+  font-style: italic;
+  cursor: default;
+  background: transparent;
+  -webkit-transform: none;
+          transform: none;
+  padding: .4em 0;
 }
 
 .footer-area {
