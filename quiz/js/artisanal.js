@@ -11,7 +11,6 @@ class Question {
     }
 
 }
-// revoir la question 3 erreur dans la réponse
 let questions = [
     new Question("1: Quel artisan a inventé le bol prénom à oreilles ?", ["Alan Stivel", "Henriot", "Erwan Berthou"], "Henriot"),
     new Question("2: Quand a été créée la faïencerie  Henriot à Quimper ?", ["1490", "1690", "1790"], "1690"),
@@ -26,8 +25,6 @@ let questions = [
     new Question("11. Que signifie « Kouign Amann » ?", ["Gâteau au beurre", "Crêpe au beurre", "Crêpe au sucre"], "Gâteau au beurre"),
     new Question("12. Le « Kouign amann » est une spécialité de Douarnenez :", ["Vrai", "Faux", null], "Vrai"),
     new Question("13. Quelle est la spécialité de Locronan ?", ["La peinture sur toile", "La verrerie", "La Ferronnerie"], "La verrerie"),
-
-
 ];
 class Quiz {
     constructor(questions) {
@@ -58,7 +55,7 @@ const display = {
         let endQuizHTML = `
         <h1><span>Q</span>uizz terminé !</h1>
         <h3>Votre score est de : ${quiz.score} / ${quiz.questions.length}</h3>
-        <a class="next" href="./culinaire.html">Quiz suivant</a>
+        <a class="next far" href="./culinaire.html">Quiz suivant</a>
         <h3 class="reply">Les Bonnes Réponses</h3>
         <ol class="resultat">
         <li>Alan Stivel, <span>Henriot</span>, Erwan Berthou</li>

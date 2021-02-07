@@ -53,7 +53,7 @@ const display = {
         let endQuizHTML = `
         <h1><span>Q</span>uizz terminé !</h1>
         <h3>Votre score est de : ${quiz.score} / ${quiz.questions.length}</h3>
-        <a class="next" href="./culture.html">Quizz suivant</a>
+        <a class="next far" href="./culture.html">Quizz suivant</a>
         <h3 class="reply">Les Bonnes Réponses</h3>
         <ol class="resultat">
         <li>Le quatre-quarts, <span>Le kouign-amann</span>, Le gâteau aux yaourt</li>
