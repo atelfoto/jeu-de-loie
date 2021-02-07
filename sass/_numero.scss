@@ -6,6 +6,19 @@
     visibility: visible;
 }
 
+#numero101 {
+    position: absolute;
+    background-color: #ccc;
+    top: 58px;
+    left: 700px;
+    visibility: visible;
+    a {
+        color: #ee7103;
+        text-decoration: none;
+        padding: 5px 20px;
+    }
+}
+
 #numero2 {
     position: absolute;
     background-color: #ccc;
@@ -200,6 +213,7 @@
 }
 
 #numero1,
+#numero101,
 #numero2,
 #numero3,
 #numero4,
