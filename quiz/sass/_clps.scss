@@ -14,7 +14,7 @@
 }
 
 .sidebar {
-    padding: .5em 1.4em 1em;
+    padding: .5em 1em 1em;
     // background: hsl(0, 0%, 90%);
     overflow: hidden;
     transition: padding .5s ease, flex .5s ease, color .2s ease-in .3s;
@@ -41,6 +41,23 @@
     color: white;
 }
 
+.example-menu li a.active {
+    color: #ffa502;
+    font-style: italic;
+    cursor: default;
+}
+
+.example-menu a.active:hover,
+// .example-menu a:focus,
+.exemple-menu a.active {
+    color: #ffa502;
+    font-style: italic;
+    cursor: default;
+    background: transparent;
+    transform: none;
+    padding: .4em 0;
+}
+
 .footer-area {
     padding: .4em 1em;
     text-align: center;
@@ -52,7 +69,7 @@
 
 .main-area,
 .footer {
-    font-family: "Josefin Sans", sans-serif;
+    // font-family: "Josefin Sans", sans-serif;
     text-align: center;
     color: #dfe4ea;
     // border-top: 1px solid;
@@ -104,7 +121,7 @@
         left: 0px;
         transition: color .2s ease, flex .5s ease .3s, padding .5s ease .3s;
     }
-    h1 {
+    .header h1 {
         order: 2;
     }
     .hide-sidebar-toggle {

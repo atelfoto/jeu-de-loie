@@ -12,15 +12,17 @@ class Question {
 
 }
 let questions = [
-    new Question("1. En quelle année fut créé le festival de Cornouaille ?", ["1947", "1923", "1958"], "1923"),
-    new Question("2. Quel pourcentage représente la filière agroalimentaire par rapport à l’ensemble des emplois industriels de l’agglomération Cornouaillaise ?", ["50%", "30%", "60%"], "50%"),
-    new Question("3. Quel évènement se déroule chaque été à Concarneau ?", ["Les vieilles charrues", "Les filets bleus", "Le festival de Cornouaille"], "Les filets bleus"),
-    new Question("4. La Cornouaille est bordée par 451km de côtes.", ["Vrai", "Faux", null], "Vrai"),
-    new Question("5. Quelle est la préfecture du Finistère ?", ["Quimper", "Brest", "Concarneau"], "Quimper"),
-    new Question("6. Quel est le surnom du port de pêche du Guilvinec ?", ["Penn sardines", "Petite mer", "Coeur de la pêche"], "Coeur de la pêche"),
-    new Question("7. Quel est le premier port de pêche français artisanal ?", ["Port de Concarneau", "Port de Douarnenez", "Port de Guilvinec"], "Port de Guilvinec"),
-    new Question("8. Quelle a été la durée de construction du phare d’Eckmühl ?", ["2 ans", "4 ans", "6 ans"], "4 ans"),
-    new Question("9. A quelle hauteur culminent les flèches de la cathédrale Saint-Corentin de Quimper ?", ["69 mètres", "72 mètres", "75 mètres"], "75 mètres"),
+    new Question("1. Quelle est la superficie du jardin du Prieuré de Locmaria ?", ["3 200 M²", "1 700 M²", "10 000 M²"], "1 700 M²"),
+    new Question("2. Où se situe le château de Keriolet ?", ["Quimper", "Concarneau", "Bénodet"], "Concarneau"),
+    new Question("3. En agriculture, que représente la majorité de la production Cornouaillaise ?", ["Le porc", "La viande bovine", "Les Végétaux"], "Les Végétaux"),
+    new Question("4. En quelle année les chambres d’agricultures sont-elles apparues ?", ["1880", "1924", "2006"], "1924"),
+    new Question("5. Les agriculteurs bretons nourrissent :", ["12 millions de personnes", "22 millions de personnes", "32 millions de personnes"], "22 millions de personnes"),
+    new Question("6. Quel grand fabricant de charcuterie de la Cormouille est réputé en France pour son pâté :", ["Herta", "Wagner", "Henaff"], "Henaff"),
+    new Question("7. Quelle est la superficie du parc naturel régional d'Armorique ?", ["125 000 hectares", "268 000 hectares", "79 500 hectares"], "125 000 hectares"),
+    new Question("8. L'Archipel des Glénan est un archipel de 9 iles ?", ["Vrai", "Faux", null], "Vrai"),
+    new Question("9. Combien de touristes viennent en Pays de Cornouille chaque année ?", ["6.5 millions", "1.6 millions", "2.3 millions"], "2.3 millions"),
+    new Question("10. Le plus grand parc d’algue d’Europe se trouve en Finistère :", ["Vrai", "Faux", null], "Vrai"),
+
 
 ];
 class Quiz {
@@ -52,18 +54,26 @@ const display = {
         let endQuizHTML = `
         <h1><span>Q</span>uizz terminé !</h1>
         <h3>Votre score est de : ${quiz.score} / ${quiz.questions.length}</h3>
-        <a class="next" href="./option.html">Quiz suivant</a>
         <h3 class="reply">Les Bonnes Réponses</h3>
         <ol class="resultat">
-        <li>1947, <span>1923</span>, 1958</li>
-        <li><span>50%</span> 30%, 60%</li>
-        <li>Les vieilles charrues, <span>Les filets bleus</span>, Le festival de Cornouaille</li>
+        <li>3 200 M², <span>1 700 M²</span>, 10 000 M²</li>
+        <li>Quimper, <span>Concarneau</span>, Bénodet</li>
+        <li>Le porc, La viande bovine, <span>Les Végétaux</span></li>
+        <li>1880, <span>1924</span>, 2006</li>
+<<<<<<< HEAD:quiz/js/option.js
+<<<<<<< HEAD
+        <li>12 millions de personnes, <span>22 millions de personnes</span>, 32millions de personnes</li>
+=======
+        <li>12 millions de personnes, <span>22 millions de personnes</span>, 32millions de personnes</li> 
+>>>>>>> 63f61342ef1cdd3bbd22ef0de6dbe0af9c09e5b5
+=======
+        <li>12 millions de personnes, <span>22 millions de personnes</span>, 32 millions de personnes</li> 
+>>>>>>> b315e4981795c9fdd0f9e8dff3dfea42324ff779:quiz/js/bonus.js
+        <li><span>Herta</span>, Wagner, Henaff</li>
+        <li><span>125 000 hectares</span>, 268 000 hectares, 79 500 hectares</li>
         <li><span>Vrai</span>, Faux</li>
-        <li><span>Quimper</span>, Brest, Concarneau</li>
-        <li>Penn sardines, Petite mer, <span>Coeur de la pêche</span></li>
-        <li>Port de Concarneau, Port de Douarnenez, <span>Port de Guilvinec</span></li>
-        <li>2 ans, <span>4 ans</span>, 6 ans</li>
-        <li>69 mètres, 72 mètres, <span>75 mètres</span></li>
+        <li>6.5 millions, 1.6 millions, <span>2.3 millions</span></li>
+        <li><span>Vrai</span>, Faux</li>
         </ol>`;
         this.elementShown('quiz', endQuizHTML);
     },
