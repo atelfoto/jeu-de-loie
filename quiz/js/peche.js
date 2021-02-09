@@ -14,7 +14,7 @@ class Question {
 let questions = [
     new Question("1: Combien y a-t-il de navires qui pêchent dans les eaux de la Bretagne ?", ["354", "543", "435"], "354"),
     new Question("2: Combien de tonnes de poissons sont débarquées par mois ?", ["49 236 tonnes", "53 236 tonnes", "58 236 tonnes"], "53 236 tonnes"),
-    new Question("3: Combien de millions d’euros rapporte l’ensemble de la pêche Cornouaillaise en 2019 ?", ["140,9 millions", "120 millions", "130,9 millions"], "140,9 millions"),
+    new Question("3: Combien de millions d’euros a rapporté l’ensemble de la pêche Cornouaillaise en 2019 ?", ["140,9 millions", "120 millions", "130,9 millions"], "140,9 millions"),
     new Question("4: Combien y a-t-il d’emplois dans le mareyage ?", ["500 emplois", "780 emplois", "850 emplois"], "780 emplois"),
     new Question("5: Combien y a-t-il d’employés qui dépendent directement de la filière pêche ?", ["5 000", "5 500", "6 000"], "5 500"),
     new Question("6: Combien d'achats issus de la pêche bretonne sont réalisés par des locaux ?", ["91%", "85%", "80%"], "91%"),

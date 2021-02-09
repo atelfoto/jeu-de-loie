@@ -60,15 +60,7 @@ const display = {
         <li>Quimper, <span>Concarneau</span>, Bénodet</li>
         <li>Le porc, La viande bovine, <span>Les Végétaux</span></li>
         <li>1880, <span>1924</span>, 2006</li>
-<<<<<<< HEAD:quiz/js/option.js
-<<<<<<< HEAD
-        <li>12 millions de personnes, <span>22 millions de personnes</span>, 32millions de personnes</li>
-=======
-        <li>12 millions de personnes, <span>22 millions de personnes</span>, 32millions de personnes</li>
->>>>>>> 63f61342ef1cdd3bbd22ef0de6dbe0af9c09e5b5
-=======
         <li>12 millions de personnes, <span>22 millions de personnes</span>, 32 millions de personnes</li>
->>>>>>> b315e4981795c9fdd0f9e8dff3dfea42324ff779:quiz/js/bonus.js
         <li><span>Herta</span>, Wagner, Henaff</li>
         <li><span>125 000 hectares</span>, 268 000 hectares, 79 500 hectares</li>
         <li><span>Vrai</span>, Faux</li>
