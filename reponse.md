@@ -21,17 +21,17 @@
 11.  Où se situe le château de Keriolet ?
    - Concarneau
 12. En agriculture, que représente la majorité de la production Cornouaillaise ?
-    - Les Végétaux
+   - Les Végétaux
 14. Quel gâteau est originaire de Douarnenez ?
-    - Le kouign-amann
+   - Le kouign-amann
 16. Comment est appelé l’appareil pour faire des crêpes/galettes ?
-    - Une billing
+   - Une billing
 17. Quelle est la crêpe la plus connue ?
-    - Compléte
+   - Compléte
 18. Combien y a-t-il de navires qui pêchent dans les eaux de la Bretagne ?
-    - 354
+   - 354
 19. Combien de tonnes de poissons sont débarquées par mois ?
-    - 53 236 tonnes
+   - 53 236 tonnes
 20. Combien de millions d’euros a rapporté l’ensemble de la pêche Cornouaillaise en 2019 ?
     - 140,9 millions
 21. Combien y a-t-il d’emplois dans le mareyage ?
