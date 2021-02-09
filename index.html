@@ -14,6 +14,7 @@
     <script src="./js/jquery-ui-1.10.3.custom.min.js"></script>
     <script src="./js/Jproies.js"></script>
     <script src="./js/ion-sound/ion.sound.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
     <!-- <script src="./js/jquery.queryloader2.min.js"></script> -->
     <!-- <script src="./js/script-loading.js"></script> -->
 </head>
@@ -102,13 +103,13 @@
             </div>
             <!--CARRE POUR VOIR CASES-->
             <div class="numero" id="numero101">
-                <a class="hastip" href="#">
-                    1<span class="tip grey">Où se trouve l’école de broderie d’art de Pascal Jaouen ?</span>
+                <a data-bs-trigger="focus" tabindex="0" data-html="true" data-bs-placement="top" data-toggle="popover" title="Jeu des Cornouailles Question" data-bs-content="Où se trouve l’école de broderie d’art de Pascal Jaouen ?">
+                    1
                 </a>
             </div>
             <div class="numero" id="numero2">
                 <a class="hastip" href="#">
-                    2<span class="tip grey">Quand a été créée la faïencerie  Henriot à Quimper ?</span>
+                    2<span class="tip grey">Quand a été créée la faïencerie Henriot à Quimper ?</span>
                 </a>
             </div>
             <div class="numero" id="numero3">
@@ -141,7 +142,11 @@
                     8<span class="tip grey">Reculez de 4 cases</span>
                 </a>
             </div>
-            <div class="numero" id="numero9">9</div>
+            <div class="numero" id="numero109">
+                <a data-bs-trigger="focus" tabindex="0" data-html="true" data-bs-placement="top" data-toggle="popover" title="Jeu des Cornouailles" data-bs-content="Quel est l’ingrédient principal du cidre breton ?">
+                    9
+                </a>
+            </div>
             <div class="numero" id="numero10">10</div>
             <div class="numero" id="numero11">11</div>
             <div class="numero" id="numero12">12</div>
@@ -274,5 +279,11 @@
         </footer>
     </div>
 </body>
+<script>
+    var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-toggle="popover"]'));
+    var popoverList = popoverTriggerList.map(function(popoverTrigger) {
+        return new bootstrap.Popover(popoverTrigger);
+    });
+</script>
 
 </html>

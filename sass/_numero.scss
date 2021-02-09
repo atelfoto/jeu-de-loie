@@ -83,6 +83,14 @@
     visibility: visible;
 }
 
+#numero109 {
+    position: absolute;
+    background-color: #ccc;
+    top: 373px;
+    left: 83px;
+    visibility: visible;
+}
+
 #numero10 {
     position: absolute;
     background-color: #ccc;
@@ -222,6 +230,7 @@
 #numero7,
 #numero8,
 #numero9,
+#numero109,
 #numero10,
 #numero11,
 #numero12,
@@ -251,6 +260,19 @@
     line-height: 2;
     text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.6);
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    a {
+        color: #ee7103;
+        text-decoration: none;
+        padding: 5px 20px;
+    }
+    a:active,
+    a:focus {
+        border: 0px;
+    }
+}
+
+:focus {
+    outline: -webkit-focus-ring-color auto 0px;
 }
 
 #numero25 {
