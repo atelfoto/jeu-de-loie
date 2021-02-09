@@ -17,11 +17,11 @@ let questions = [
     new Question("3. En agriculture, que représente la majorité de la production Cornouaillaise ?", ["Le porc", "La viande bovine", "Les Végétaux"], "Les Végétaux"),
     new Question("4. En quelle année les chambres d’agricultures sont-elles apparues ?", ["1880", "1924", "2006"], "1924"),
     new Question("5. Les agriculteurs bretons nourrissent :", ["12 millions de personnes", "22 millions de personnes", "32 millions de personnes"], "22 millions de personnes"),
-    new Question("6. Quel grand fabricant de charcuterie de la Cormouille est réputé en France pour son pâté :", ["Herta", "Wagner", "Henaff"], "Henaff"),
+    new Question("6. Quel grand fabricant de charcuterie de la Cornouaille est réputé en France pour son pâté ?", ["Herta", "Wagner", "Hénaff"], "Hénaff"),
     new Question("7. Quelle est la superficie du parc naturel régional d'Armorique ?", ["125 000 hectares", "268 000 hectares", "79 500 hectares"], "125 000 hectares"),
-    new Question("8. L'Archipel des Glénan est un archipel de 9 iles ?", ["Vrai", "Faux", null], "Vrai"),
-    new Question("9. Combien de touristes viennent en Pays de Cornouille chaque année ?", ["6.5 millions", "1.6 millions", "2.3 millions"], "2.3 millions"),
-    new Question("10. Le plus grand parc d’algue d’Europe se trouve en Finistère :", ["Vrai", "Faux", null], "Vrai"),
+    new Question("8. L'Archipel des Glénan est un archipel de 9 îles ?", ["Vrai", "Faux", null], "Vrai"),
+    new Question("9. Combien de touristes viennent en Pays de Cornouaille chaque année ?", ["6.5 millions", "1.6 millions", "2.3 millions"], "2.3 millions"),
+    new Question("10. Le plus grand parc d’algues d’Europe se trouve en Finistère :", ["Vrai", "Faux", null], "Vrai"),
 
 
 ];
@@ -64,10 +64,10 @@ const display = {
 <<<<<<< HEAD
         <li>12 millions de personnes, <span>22 millions de personnes</span>, 32millions de personnes</li>
 =======
-        <li>12 millions de personnes, <span>22 millions de personnes</span>, 32millions de personnes</li> 
+        <li>12 millions de personnes, <span>22 millions de personnes</span>, 32millions de personnes</li>
 >>>>>>> 63f61342ef1cdd3bbd22ef0de6dbe0af9c09e5b5
 =======
-        <li>12 millions de personnes, <span>22 millions de personnes</span>, 32 millions de personnes</li> 
+        <li>12 millions de personnes, <span>22 millions de personnes</span>, 32 millions de personnes</li>
 >>>>>>> b315e4981795c9fdd0f9e8dff3dfea42324ff779:quiz/js/bonus.js
         <li><span>Herta</span>, Wagner, Henaff</li>
         <li><span>125 000 hectares</span>, 268 000 hectares, 79 500 hectares</li>

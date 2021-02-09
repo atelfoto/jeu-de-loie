@@ -16,7 +16,7 @@ let questions = [
     new Question("2. Comment est appelé l’appareil pour faire des crêpes/galettes ?", ["Une billig", "Un four", "Une poêle"], "Une billig"),
     new Question("3. Quelle est la crêpe la plus connue ?", ["Complète", "Lancelot", "Perceval"], "Complète"),
     new Question("4. Avec quel fruit sec est préparé le far ?", ["Les pruneaux", "Les raisins", "Les cerises"], "Les pruneaux"),
-    new Question("5. Pour quel fruit est connu la charmante ville de Plougastel ?", ["Framboises", "Pommes", "Fraises"], "Fraises"),
+    new Question("5. Pour quel fruit est connu la charmante ville de Plougastel ?", ["Framboise", "Pomme", "Fraise"], "Fraise"),
     new Question("6. Quel est le caramel breton le plus connu pour garnir vos crêpes ?", ["Aux beurre doux", "Aux beurre salé", "Aux sucre roux"], "Aux beurre salé"),
     new Question("7. Le lait ribot peut être bu comme du lait normal ou bien dans un bol avec une galette dedans.Mais qu’est ce que c’est réellement ?", ["Du lait fermenté", "Du lait de chèvre", "Du lait de truie"], "Du lait fermenté"),
     new Question("8. A partir de quel jus de fruit est fabriqué le pommeau ?", ["Orange", "Cerise", "Pomme"], "Pomme"),
@@ -60,11 +60,11 @@ const display = {
         <li><span>Une billig</span>, Un four, Une poêle</li>
         <li><span>Complète</span>, Lancelot, Perceval</li>
         <li><span>Les pruneaux</span>, Les raisins, Les cerises</li>
-        <li>Framboises, Pommes, <span>Fraises</span></li>
+        <li>Framboise, Pomme, <span>Fraise</span></li>
         <li>Aux beurre doux, <span>Aux beurre salé</span>, Aux sucre roux</li>
         <li><span>Du lait fermenté</span>, Du lait de chèvre, Du lait de truie</li>
         <li>Orange, Cerise, <span>Pomme</span></li>
-        <li>Lactosérum, <span>Babeurre</span>, Petit lait</li>        
+        <li>Lactosérum, <span>Babeurre</span>, Petit lait</li>
         <li>Caramel au beurre salé, Jus de chaussette, <span>Miel fermenté</span></li>`;
         this.elementShown('quiz', endQuizHTML);
     },
