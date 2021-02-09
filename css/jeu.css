@@ -70,7 +70,7 @@ body {
   top: 30px;
 }
 
-/* 
+/*
 #titre {
     position: absolute;
     background-color: #983897;
@@ -563,14 +563,6 @@ body {
   cursor: pointer;
 }
 
-#numero1 {
-  position: absolute;
-  background-color: #ccc;
-  top: 58px;
-  left: 700px;
-  visibility: visible;
-}
-
 #numero101 {
   position: absolute;
   background-color: #ccc;
@@ -579,13 +571,7 @@ body {
   visibility: visible;
 }
 
-#numero101 a {
-  color: #ee7103;
-  text-decoration: none;
-  padding: 5px 20px;
-}
-
-#numero2 {
+#numero102 {
   position: absolute;
   background-color: #ccc;
   top: 58px;
@@ -593,7 +579,7 @@ body {
   visibility: visible;
 }
 
-#numero3 {
+#numero103 {
   position: absolute;
   background-color: #ccc;
   top: 58px;
@@ -601,7 +587,7 @@ body {
   visibility: visible;
 }
 
-#numero4 {
+#numero104 {
   position: absolute;
   background-color: #ccc;
   top: 58px;
@@ -609,7 +595,7 @@ body {
   visibility: visible;
 }
 
-#numero5 {
+#numero105 {
   position: absolute;
   background-color: #ccc;
   top: 60px;
@@ -617,7 +603,7 @@ body {
   visibility: visible;
 }
 
-#numero6 {
+#numero106 {
   position: absolute;
   background-color: #ccc;
   top: 100px;
@@ -625,7 +611,7 @@ body {
   visibility: visible;
 }
 
-#numero7 {
+#numero107 {
   position: absolute;
   background-color: #ccc;
   top: 191px;
@@ -633,19 +619,11 @@ body {
   visibility: visible;
 }
 
-#numero8 {
+#numero108 {
   position: absolute;
   background-color: #ccc;
   top: 281px;
   left: 72px;
-  visibility: visible;
-}
-
-#numero9 {
-  position: absolute;
-  background-color: #ccc;
-  top: 373px;
-  left: 83px;
   visibility: visible;
 }
 
@@ -657,7 +635,7 @@ body {
   visibility: visible;
 }
 
-#numero10 {
+#numero110 {
   position: absolute;
   background-color: #ccc;
   top: 462px;
@@ -665,7 +643,7 @@ body {
   visibility: visible;
 }
 
-#numero11 {
+#numero111 {
   position: absolute;
   background-color: #ccc;
   top: 478px;
@@ -673,7 +651,7 @@ body {
   visibility: visible;
 }
 
-#numero12 {
+#numero112 {
   position: absolute;
   background-color: #ccc;
   top: 480px;
@@ -681,7 +659,7 @@ body {
   visibility: visible;
 }
 
-#numero13 {
+#numero113 {
   position: absolute;
   background-color: #ccc;
   top: 480px;
@@ -689,7 +667,7 @@ body {
   visibility: visible;
 }
 
-#numero14 {
+#numero114 {
   position: absolute;
   background-color: #ccc;
   top: 480px;
@@ -697,7 +675,7 @@ body {
   visibility: visible;
 }
 
-#numero15 {
+#numero115 {
   position: absolute;
   background-color: #ccc;
   top: 479px;
@@ -705,7 +683,7 @@ body {
   visibility: visible;
 }
 
-#numero16 {
+#numero116 {
   position: absolute;
   background-color: #ccc;
   top: 393px;
@@ -713,7 +691,7 @@ body {
   visibility: visible;
 }
 
-#numero17 {
+#numero117 {
   position: absolute;
   background-color: #ccc;
   top: 308px;
@@ -721,7 +699,7 @@ body {
   visibility: visible;
 }
 
-#numero18 {
+#numero118 {
   position: absolute;
   background-color: #ccc;
   top: 209px;
@@ -729,7 +707,7 @@ body {
   visibility: visible;
 }
 
-#numero19 {
+#numero119 {
   position: absolute;
   background-color: #ccc;
   top: 198px;
@@ -737,7 +715,7 @@ body {
   visibility: visible;
 }
 
-#numero20 {
+#numero120 {
   position: absolute;
   background-color: #ccc;
   top: 195px;
@@ -745,7 +723,7 @@ body {
   visibility: visible;
 }
 
-#numero21 {
+#numero121 {
   position: absolute;
   background-color: #ccc;
   top: 207px;
@@ -753,7 +731,7 @@ body {
   visibility: visible;
 }
 
-#numero22 {
+#numero122 {
   position: absolute;
   background-color: #ccc;
   top: 290px;
@@ -761,7 +739,7 @@ body {
   visibility: visible;
 }
 
-#numero23 {
+#numero123 {
   position: absolute;
   background-color: #ccc;
   top: 377px;
@@ -769,7 +747,7 @@ body {
   visibility: visible;
 }
 
-#numero24 {
+#numero124 {
   position: absolute;
   background-color: #ccc;
   top: 359px;
@@ -786,32 +764,32 @@ body {
   bottom: 72px;
 }
 
-#numero1,
 #numero101,
-#numero2,
-#numero3,
-#numero4,
-#numero5,
-#numero6,
-#numero7,
-#numero8,
-#numero9,
+#numero102,
+#numero103,
+#numero102,
+#numero104,
+#numero105,
+#numero106,
+#numero107,
+#numero108,
 #numero109,
-#numero10,
-#numero11,
-#numero12,
-#numero13,
-#numero14,
-#numero15,
-#numero16,
-#numero17,
-#numero18,
-#numero19,
-#numero20,
-#numero21,
-#numero22,
-#numero23,
-#numero24 {
+#numero109,
+#numero110,
+#numero111,
+#numero112,
+#numero113,
+#numero114,
+#numero115,
+#numero116,
+#numero117,
+#numero118,
+#numero119,
+#numero120,
+#numero121,
+#numero122,
+#numero123,
+#numero124 {
   width: 52px;
   height: 30px;
   /* opacity: 0; */
@@ -827,91 +805,89 @@ body {
           box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
-#numero1 a,
 #numero101 a,
-#numero2 a,
-#numero3 a,
-#numero4 a,
-#numero5 a,
-#numero6 a,
-#numero7 a,
-#numero8 a,
-#numero9 a,
+#numero102 a,
+#numero103 a,
+#numero104 a,
+#numero105 a,
+#numero106 a,
+#numero107 a,
+#numero108 a,
 #numero109 a,
-#numero10 a,
-#numero11 a,
-#numero12 a,
-#numero13 a,
-#numero14 a,
-#numero15 a,
-#numero16 a,
-#numero17 a,
-#numero18 a,
-#numero19 a,
-#numero20 a,
-#numero21 a,
-#numero22 a,
-#numero23 a,
-#numero24 a {
+#numero109 a,
+#numero110 a,
+#numero111 a,
+#numero112 a,
+#numero113 a,
+#numero114 a,
+#numero115 a,
+#numero116 a,
+#numero117 a,
+#numero118 a,
+#numero119 a,
+#numero120 a,
+#numero121 a,
+#numero122 a,
+#numero123 a,
+#numero124 a {
   color: #ee7103;
   text-decoration: none;
   padding: 5px 20px;
 }
 
-#numero1 a:active,
-#numero1 a:focus,
 #numero101 a:active,
 #numero101 a:focus,
-#numero2 a:active,
-#numero2 a:focus,
-#numero3 a:active,
-#numero3 a:focus,
-#numero4 a:active,
-#numero4 a:focus,
-#numero5 a:active,
-#numero5 a:focus,
-#numero6 a:active,
-#numero6 a:focus,
-#numero7 a:active,
-#numero7 a:focus,
-#numero8 a:active,
-#numero8 a:focus,
-#numero9 a:active,
-#numero9 a:focus,
+#numero102 a:active,
+#numero102 a:focus,
+#numero103 a:active,
+#numero103 a:focus,
+#numero104 a:active,
+#numero104 a:focus,
+#numero105 a:active,
+#numero105 a:focus,
+#numero106 a:active,
+#numero106 a:focus,
+#numero107 a:active,
+#numero107 a:focus,
+#numero108 a:active,
+#numero108 a:focus,
 #numero109 a:active,
 #numero109 a:focus,
-#numero10 a:active,
-#numero10 a:focus,
-#numero11 a:active,
-#numero11 a:focus,
-#numero12 a:active,
-#numero12 a:focus,
-#numero13 a:active,
-#numero13 a:focus,
-#numero14 a:active,
-#numero14 a:focus,
-#numero15 a:active,
-#numero15 a:focus,
-#numero16 a:active,
-#numero16 a:focus,
-#numero17 a:active,
-#numero17 a:focus,
-#numero18 a:active,
-#numero18 a:focus,
-#numero19 a:active,
-#numero19 a:focus,
-#numero20 a:active,
-#numero20 a:focus,
-#numero21 a:active,
-#numero21 a:focus,
-#numero22 a:active,
-#numero22 a:focus,
-#numero23 a:active,
-#numero23 a:focus,
-#numero24 a:active,
-#numero24 a:focus {
+#numero109 a:active,
+#numero109 a:focus,
+#numero110 a:active,
+#numero110 a:focus,
+#numero111 a:active,
+#numero111 a:focus,
+#numero112 a:active,
+#numero112 a:focus,
+#numero113 a:active,
+#numero113 a:focus,
+#numero114 a:active,
+#numero114 a:focus,
+#numero115 a:active,
+#numero115 a:focus,
+#numero116 a:active,
+#numero116 a:focus,
+#numero117 a:active,
+#numero117 a:focus,
+#numero118 a:active,
+#numero118 a:focus,
+#numero119 a:active,
+#numero119 a:focus,
+#numero120 a:active,
+#numero120 a:focus,
+#numero121 a:active,
+#numero121 a:focus,
+#numero122 a:active,
+#numero122 a:focus,
+#numero123 a:active,
+#numero123 a:focus,
+#numero124 a:active,
+#numero124 a:focus {
   border: 0px;
 }
+
 
 :focus {
   outline: -webkit-focus-ring-color auto 0px;
