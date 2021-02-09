@@ -70,7 +70,7 @@ body {
   top: 30px;
 }
 
-/*
+/* 
 #titre {
     position: absolute;
     background-color: #983897;
@@ -571,6 +571,12 @@ body {
   visibility: visible;
 }
 
+#numero101 a {
+  color: #ee7103;
+  text-decoration: none;
+  padding: 5px 20px;
+}
+
 #numero102 {
   position: absolute;
   background-color: #ccc;
@@ -767,13 +773,11 @@ body {
 #numero101,
 #numero102,
 #numero103,
-#numero102,
 #numero104,
 #numero105,
 #numero106,
 #numero107,
 #numero108,
-#numero109,
 #numero109,
 #numero110,
 #numero111,
@@ -814,7 +818,6 @@ body {
 #numero107 a,
 #numero108 a,
 #numero109 a,
-#numero109 a,
 #numero110 a,
 #numero111 a,
 #numero112 a,
@@ -853,8 +856,6 @@ body {
 #numero108 a:focus,
 #numero109 a:active,
 #numero109 a:focus,
-#numero109 a:active,
-#numero109 a:focus,
 #numero110 a:active,
 #numero110 a:focus,
 #numero111 a:active,
@@ -887,7 +888,6 @@ body {
 #numero124 a:focus {
   border: 0px;
 }
-
 
 :focus {
   outline: -webkit-focus-ring-color auto 0px;

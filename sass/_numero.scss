@@ -1,11 +1,3 @@
-#numero1 {
-    position: absolute;
-    background-color: #ccc;
-    top: 58px;
-    left: 700px;
-    visibility: visible;
-}
-
 #numero101 {
     position: absolute;
     background-color: #ccc;
@@ -19,7 +11,7 @@
     }
 }
 
-#numero2 {
+#numero102 {
     position: absolute;
     background-color: #ccc;
     top: 58px;
@@ -27,7 +19,7 @@
     visibility: visible;
 }
 
-#numero3 {
+#numero103 {
     position: absolute;
     background-color: #ccc;
     top: 58px;
@@ -35,7 +27,7 @@
     visibility: visible;
 }
 
-#numero4 {
+#numero104 {
     position: absolute;
     background-color: #ccc;
     top: 58px;
@@ -43,7 +35,7 @@
     visibility: visible;
 }
 
-#numero5 {
+#numero105 {
     position: absolute;
     background-color: #ccc;
     top: 60px;
@@ -51,7 +43,7 @@
     visibility: visible;
 }
 
-#numero6 {
+#numero106 {
     position: absolute;
     background-color: #ccc;
     top: 100px;
@@ -59,7 +51,7 @@
     visibility: visible;
 }
 
-#numero7 {
+#numero107 {
     position: absolute;
     background-color: #ccc;
     top: 191px;
@@ -67,19 +59,11 @@
     visibility: visible;
 }
 
-#numero8 {
+#numero108 {
     position: absolute;
     background-color: #ccc;
     top: 281px;
     left: 72px;
-    visibility: visible;
-}
-
-#numero9 {
-    position: absolute;
-    background-color: #ccc;
-    top: 373px;
-    left: 83px;
     visibility: visible;
 }
 
@@ -91,7 +75,7 @@
     visibility: visible;
 }
 
-#numero10 {
+#numero110 {
     position: absolute;
     background-color: #ccc;
     top: 462px;
@@ -99,7 +83,7 @@
     visibility: visible;
 }
 
-#numero11 {
+#numero111 {
     position: absolute;
     background-color: #ccc;
     top: 478px;
@@ -107,7 +91,7 @@
     visibility: visible;
 }
 
-#numero12 {
+#numero112 {
     position: absolute;
     background-color: #ccc;
     top: 480px;
@@ -115,7 +99,7 @@
     visibility: visible;
 }
 
-#numero13 {
+#numero113 {
     position: absolute;
     background-color: #ccc;
     top: 480px;
@@ -123,7 +107,7 @@
     visibility: visible;
 }
 
-#numero14 {
+#numero114 {
     position: absolute;
     background-color: #ccc;
     top: 480px;
@@ -131,7 +115,7 @@
     visibility: visible;
 }
 
-#numero15 {
+#numero115 {
     position: absolute;
     background-color: #ccc;
     top: 479px;
@@ -139,7 +123,7 @@
     visibility: visible;
 }
 
-#numero16 {
+#numero116 {
     position: absolute;
     background-color: #ccc;
     top: 393px;
@@ -147,7 +131,7 @@
     visibility: visible;
 }
 
-#numero17 {
+#numero117 {
     position: absolute;
     background-color: #ccc;
     top: 308px;
@@ -155,7 +139,7 @@
     visibility: visible;
 }
 
-#numero18 {
+#numero118 {
     position: absolute;
     background-color: #ccc;
     top: 209px;
@@ -163,7 +147,7 @@
     visibility: visible;
 }
 
-#numero19 {
+#numero119 {
     position: absolute;
     background-color: #ccc;
     top: 198px;
@@ -171,7 +155,7 @@
     visibility: visible;
 }
 
-#numero20 {
+#numero120 {
     position: absolute;
     background-color: #ccc;
     top: 195px;
@@ -179,7 +163,7 @@
     visibility: visible;
 }
 
-#numero21 {
+#numero121 {
     position: absolute;
     background-color: #ccc;
     top: 207px;
@@ -187,7 +171,7 @@
     visibility: visible;
 }
 
-#numero22 {
+#numero122 {
     position: absolute;
     background-color: #ccc;
     top: 290px;
@@ -195,7 +179,7 @@
     visibility: visible;
 }
 
-#numero23 {
+#numero123 {
     position: absolute;
     background-color: #ccc;
     top: 377px;
@@ -203,7 +187,7 @@
     visibility: visible;
 }
 
-#numero24 {
+#numero124 {
     position: absolute;
     background-color: #ccc;
     top: 359px;
@@ -220,32 +204,30 @@
     bottom: 72px;
 }
 
-#numero1,
 #numero101,
-#numero2,
-#numero3,
-#numero4,
-#numero5,
-#numero6,
-#numero7,
-#numero8,
-#numero9,
+#numero102,
+#numero103,
+#numero104,
+#numero105,
+#numero106,
+#numero107,
+#numero108,
 #numero109,
-#numero10,
-#numero11,
-#numero12,
-#numero13,
-#numero14,
-#numero15,
-#numero16,
-#numero17,
-#numero18,
-#numero19,
-#numero20,
-#numero21,
-#numero22,
-#numero23,
-#numero24 {
+#numero110,
+#numero111,
+#numero112,
+#numero113,
+#numero114,
+#numero115,
+#numero116,
+#numero117,
+#numero118,
+#numero119,
+#numero120,
+#numero121,
+#numero122,
+#numero123,
+#numero124 {
     width: 52px;
     height: 30px;
     /* opacity: 0; */
