@@ -231,9 +231,9 @@
     width: 52px;
     height: 30px;
     /* opacity: 0; */
-    background-color: #fff;
+    color: #fff;
     // color: red;
-    color: #ee7103;
+    background-color: #ee7103;
     border-radius: 20px;
     // border: 1px solid #000;
     border: 1px solid #ee7103;
@@ -243,7 +243,7 @@
     text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.6);
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
     a {
-        color: #ee7103;
+        color: #fff;
         text-decoration: none;
         padding: 5px 20px;
     }

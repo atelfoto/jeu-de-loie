@@ -2,6 +2,7 @@
     outline: 0 !important;
 }
 
+@import 'quiz/sass/mediaqueries';
 @import 'sass/base';
 // @import 'sass/fonts';
 @import 'sass/dessincase';
@@ -11,7 +12,7 @@
 @import 'sass/numero';
 @import 'sass/rebours';
 @import 'sass/main';
-@import 'sass/tooltip';
+// @import 'sass/tooltip';
 // scss-docs-start import-stack
 // Configuration
 @import "node_modules/bootstrap/scss/functions";
@@ -20,7 +21,7 @@
 @import 'node_modules/bootstrap/scss/utilities';
 // Layout & components
 // @import "root";
-// @import "node_modules/bootstrap/scss/reboot";
+@import "node_modules/bootstrap/scss/reboot";
 // @import "type";
 // @import "images";
 // @import "containers";
@@ -45,7 +46,7 @@
 // @import "close";
 // @import "toasts";
 // @import "modal";
-// @import "node_modules/bootstrap/scss/tooltip";
+@import "node_modules/bootstrap/scss/tooltip";
 @import 'node_modules/bootstrap/scss/popover';
 // @import "carousel";
 // @import "spinners";
