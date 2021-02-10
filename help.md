@@ -10,3 +10,6 @@
 4. Cliquez sur le numéro pour lire la question.
 5. Chacun lance le dé à son tour dans un ordre déterminé.
 6. On compte sur le jeu avec les marques autant de cases que les dés ont amené de points.
+7. Pour chaque mauvaise réponse reculez de 2 cases.
+8. Avancez du nombres de cases indiqué quand vous avez une bonne question et reculez d'autant
+de cases indiqué quand vous avez une mauvaise question.

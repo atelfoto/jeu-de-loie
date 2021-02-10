@@ -40,9 +40,11 @@ body {
     margin-right: auto;
     /* border: 8px solid #cf6; */
     border: 8px solid var(--main-color);
-    height: 596px;
     text-align: center;
-    width: 1024px;
+    @include respond-above(lg) {
+        width: 1040px;
+        height: 612px;
+    }
     background-color: #ccf;
     border-radius: 10px;
 }
@@ -73,36 +75,6 @@ body {
     height: 130px;
     width: 750px;
     top: 30px;
-}
-
-
-/* 
-#titre {
-    position: absolute;
-    background-color: #983897;
-    opacity: 0.8;
-    color: #fff;
-    font-size: 24px;
-    text-align: center;
-    height: 26px;
-    text-align: center;
-    width: 390px;
-    top: 12px;
-    left: 139px;
-} */
-
-//pas dispensable
-#regle {
-    position: absolute;
-    background-color: #69f;
-    opacity: 0.8;
-    color: #fff;
-    font-size: 24px;
-    height: 26px;
-    text-align: center;
-    width: 154px;
-    top: 13px;
-    left: 555px;
 }
 
 // box des questions

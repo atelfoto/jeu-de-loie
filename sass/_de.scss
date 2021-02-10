@@ -45,4 +45,7 @@
 #de6 {
     top: 215px;
     left: 830px;
+    &:hover {
+        cursor: pointer;
+    }
 }
