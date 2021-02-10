@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "Josefin Sans";
+    src: url("./../fonts/josefinsans-variablefont_wght.eot");
+    src: url("./../fonts/josefinsans-variablefont_wght.eot") format("embedded-opentype"), url("./../fonts/josefinsans-variablefont_wght.woff") format("woff"), url("./../fonts/josefinsans-variablefont_wght.woff2") format("woff2"), url("./../fonts/JosefinSans-VariableFont_wght.ttf") format("truetype"), url("../../fonts/josefinsans-variablefont_wght.svg") format("svg");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "lobster";
+    src: url("./../fonts/lobster-regular.eot");
+    src: url("./../fonts/lobster-regular.eot") format("embedded-opentype"), url("./../fonts/lobster-regular.woff") format("woff"), url("./../fonts/lobster-regular.woff2") format("woff2"), url("./../fonts/lobster-regular.ttf") format("truetype"), url("../../fonts/lobster-regular.svg") format("svg");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Font Awesome 5 Free';
+    font-style: normal;
+    font-weight: 400;
+    font-display: block;
+    src: url("../fonts/fa-regular-400.eot");
+    src: url("../fonts/fa-regular-400.eot?#iefix") format("embedded-opentype"), url("../fonts/fa-regular-400.woff2") format("woff2"), url("../fonts/fa-regular-400.woff") format("woff"), url("../fonts/fa-regular-400.ttf") format("truetype"), url("../fonts/fa-regular-400.svg#fontawesome") format("svg");
+}
+
+.far {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 400;
+}
+
+// @font-face {
+//     font-family: 'Font Awesome 5 Brands';
+//     font-style: normal;
+//     font-weight: 400;
+//     font-display: block;
+//     src: url("./../fonts/fa-brands-400.eot");
+//     src: url("./../fonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("./../fonts/fa-brands-400.woff2") format("woff2"), url("./../fonts/fa-brands-400.woff") format("woff"), url("./../fonts/fa-brands-400.ttf") format("truetype"), url("./../fonts/fa-brands-400.svg#fontawesome") format("svg");
+// }
+// .fab {
+//     font-family: 'Font Awesome 5 Brands';
+//     font-weight: 400;
+// }

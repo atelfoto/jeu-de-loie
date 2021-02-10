@@ -1,10 +1,34 @@
 {
     "gitflow4code.features": [],
-    "liveSassCompile.settings.generateMap": false,
-    "gitflow4code.releases": [
+    "gitflow4code.releases": [],
+    "liveServer.settings.port": 5501,
+    "cSpell.ignoreWords": [
+        "Flexbox",
+        "autoprefix",
+        "cakephp",
+        "dropdown",
+        "loie",
+        "mixins",
+        "rgba",
+        "webroot"
+    ],
+    "liveSassCompile.settings.formats": [
         {
-            "name": "release/release2",
-            "base": "develop"
-        }
-    ]
+            "format": "expanded",
+            "extensionName": ".css",
+            // "savePath": "/quiz/css"
+            "savePath": "/css"
+        },
+        // {
+        //     "extensionName": ".min.css",
+        //     "format": "compressed",
+        //     "savePath": "/css"
+        // }
+    ],
+    "liveSassCompile.settings.excludeList": [
+        "**/node_modules/**",
+        ".vscode/**"
+    ],
+    "liveSassCompile.settings.generateMap": false,
+    "liveSassCompile.settings.autoprefix": ["> 1%", "last 2 versions"]
 }

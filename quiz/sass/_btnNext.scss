@@ -1,0 +1,47 @@
+#quiz a.next,
+.box.regle a.next {
+    text-decoration: none;
+    width: calc(100vw - 0.8rem);
+    color: #000;
+    @include respond-above(sm) {
+        // width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        flex: 1 0 95%;
+        // flex: 1 0 45%;
+    }
+    @media screen and (max-height: 768px) {
+        height: 60px;
+        width: calc(100vw - 30px);
+    }
+    height: 80px;
+    line-height: 3;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    // margin: 0.4rem;
+    outline: none;
+    background: #dfe4ea;
+    user-select: none;
+    font-weight: 600;
+    &:hover {
+        background: #ffa502;
+        transition: 0.5s;
+    }
+    &:active {
+        transform: scale(0.9);
+        transition: transform 0.1s;
+    }
+}
+
+#quiz a.next {
+    @include respond-above(sm) {
+        width: calc(80% - 30px);
+        max-height: 50px;
+        line-height: 2;
+    }
+    &:after {
+        content: "\f35a";
+        margin-left: 15px;
+    }
+}

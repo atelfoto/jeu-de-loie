@@ -1,0 +1,149 @@
+@charset "UTF-8";
+:root {
+    --main-color: #ee7103;
+}
+
+body {
+    /* background-image: url(images/dcase0.png); */
+    background-color: #000;
+    margin: 0px;
+    padding: 0px;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+    // font-family: sans-serif;
+    font-size: 14px;
+    // font-family: "Josefin Sans", "Helvetica", Arial, sans-serif;
+}
+
+// second plateau
+#cases2 {
+    position: absolute;
+    visibility: visible;
+    z-index: +3;
+}
+
+//introvable dispensable
+#credits {
+    position: absolute;
+    left: 10px;
+    top: 542px;
+    text-align: left;
+    font-size: 12px;
+    height: 50px;
+    width: 1030px;
+}
+
+// div
+.fond {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 8px solid #cf6; */
+    border: 8px solid var(--main-color);
+    text-align: center;
+    @include respond-above(lg) {
+        width: 1040px;
+        height: 612px;
+    }
+    background-color: #ccf;
+    border-radius: 10px;
+}
+
+// tableau principal du jeu 
+#dessinfond {
+    position: absolute;
+}
+
+//introuvable en commentaire sur original
+#rebours {
+    position: absolute;
+    background-color: #f7b767;
+    border-radius: 2px;
+    top: 485px;
+    left: 872px;
+    width: 73px;
+    height: 40px;
+    visibility: visible;
+}
+
+// introuvable
+.fondliste {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f7b767;
+    height: 130px;
+    width: 750px;
+    top: 30px;
+}
+
+// box des questions
+#cases {
+    position: absolute;
+    color: #000;
+    font-size: 24px;
+    background-color: #fff;
+    height: 155px;
+    text-align: center;
+    width: 381px;
+    left: 360px;
+    padding: 5px;
+    top: 278px;
+    border-radius: 8px;
+    border: 8px solid var(--main-color);
+    visibility: visible;
+    z-index: 3;
+}
+
+// introuvable
+#ecouter {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 22px;
+    border: 2px solid #3366b0;
+    // color: #9fc;
+    // text-align: left;
+    background-color: #f6f;
+    border-radius: 5px;
+    height: 30px;
+    text-align: center;
+    width: 280px;
+    color: #000;
+}
+
+// in trouvable
+#sur-desssin {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    width: 830px;
+    height: 470px;
+}
+
+// introuvable
+#logo2 {
+    position: absolute;
+    margin-left: 730px;
+    margin-top: 0cm;
+    background-color: #99c;
+    left: 195px;
+    top: 633px;
+    width: 95px;
+}
+
+// introuvable
+#logo3 {
+    position: absolute;
+    margin-left: 730px;
+    margin-top: 0cm;
+    left: -246px;
+    top: 727px;
+    width: 166px;
+}
+
+body {
+    /* background-color: #9cf; */
+    background-color: #fff;
+}

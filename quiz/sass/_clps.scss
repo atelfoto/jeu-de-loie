@@ -14,8 +14,8 @@
 }
 
 .sidebar {
-    padding: .5em 1.4em 1em;
-    background: hsl(0, 0%, 90%);
+    padding: .5em 1em 1em;
+    // background: hsl(0, 0%, 90%);
     overflow: hidden;
     transition: padding .5s ease, flex .5s ease, color .2s ease-in .3s;
 }
@@ -41,6 +41,23 @@
     color: white;
 }
 
+.example-menu li a.active {
+    color: #ffa502;
+    font-style: italic;
+    cursor: default;
+}
+
+.example-menu a.active:hover,
+// .example-menu a:focus,
+.exemple-menu a.active {
+    color: #ffa502;
+    font-style: italic;
+    cursor: default;
+    background: transparent;
+    transform: none;
+    padding: .4em 0;
+}
+
 .footer-area {
     padding: .4em 1em;
     text-align: center;
@@ -48,73 +65,42 @@
 }
 
 
-/* Sidebar switcher buttons */
-
-@media screen and (max-width: 40em) {
-    /* Hide switcher on small screens */
-    .sidebar-switcher {
-        display: none;
-    }
-}
-
-@media screen and (min-width: 40em) {
-    .sidebar-switcher {
-        position: absolute;
-        right: 0;
-        padding: .4em 1em;
-        color: hsl(0, 0%, 40%);
-    }
-    .sidebar-switcher a {
-        color: hsl(0, 0%, 40%);
-        padding-left: .4em;
-    }
-    .sidebar-switcher a:hover,
-    .sidebar-switcher a:focus {
-        color: hsl(0, 0%, 20%);
-    }
-}
-
-
 /*Flexbox*/
 
 .main-area,
 .footer {
-    font-family: "Josefin Sans", sans-serif;
+    // font-family: "Josefin Sans", sans-serif;
     text-align: center;
     color: #dfe4ea;
+    // border-top: 1px solid;
 }
 
 .footer {
     padding: 15px;
+    P {
+        text-transform: capitalize;
+    }
 }
 
-@media screen and (min-width: 40em) {
+// @media screen and (min-width: 40em) {
+@include respond-above(xs) {
     .outer-wrap {
         display: flex;
         flex-direction: column;
     }
     .content {
         display: flex;
+        min-height: calc(100vh - 129px);
         // height: 665px;
-        height: calc(100vh - 115px);
+        // height: calc(100vh - 115px);// 19:46
     }
     .main-area {
         flex: 1 1 auto;
         order: 1;
     }
-    .post-content {
-        max-width: 40em;
-        margin: 0 auto;
-    }
     .sidebar {
         flex: 0 0 12em;
         order: 2
-    }
-    .sidebar-left {
-        order: 0;
-    }
-    .no-sidebar {
-        flex-direction: column;
     }
     .hide-sidebar {
         flex: 0 0 0;
@@ -124,5 +110,21 @@
     }
     .hide-sidebar a {
         color: hsla(0, 0%, 0%, 0);
+    }
+}
+
+@include respond-below(xs) {
+    .sidebar {
+        left: -1000px;
+    }
+    .hide-sidebar {
+        left: 0px;
+        transition: color .2s ease, flex .5s ease .3s, padding .5s ease .3s;
+    }
+    .header h1 {
+        order: 2;
+    }
+    .hide-sidebar-toggle {
+        order: 1;
     }
 }

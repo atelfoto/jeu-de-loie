@@ -1,0 +1,50 @@
+// compte à rebours pour les questions
+#boite {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 18%;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 5px;
+    height: 35px;
+    cursor: pointer;
+    text-align: center;
+    width: 210px;
+    z-index: +2;
+}
+
+#btn1 {
+    font-size: 20px;
+    color: white;
+    background-color: hsla(254, 82%, 64%, 1);
+    height: 30px;
+    cursor: pointer;
+    text-align: center;
+    width: 285px;
+    visibility: visible;
+}
+
+#btn2 {
+    font-size: 20px;
+    color: #fff;
+    background-color: red;
+    height: 30px;
+    cursor: pointer;
+    text-align: center;
+    width: 285px;
+    visibility: visible;
+}
+
+#count {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 28px;
+    color: #fff;
+    background-color: #333;
+    height: 50px;
+    text-align: center;
+    width: 280px;
+    visibility: visible;
+}

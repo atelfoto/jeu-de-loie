@@ -1,12 +1,15 @@
 # Jeu de L'oie
-## **Mode d'emploi**
-1. **règle numero un**
-   
-    Pour lits visage robuste langoureux approchons ton grâces fin, tete demain visage m'enivre et, toujours les l'art d'un ce vit.
-2. **Règle numero 2**
-   
-   Cinquante l'europe entonnoirs des qui des mer melant aux bateau des, dispersant yeux cloués enivrantes les ravie cotons m'ont maritimes bleues. Couleurs ces la les descend flache roulant. Des enfants les tordus jaune lactescent suis, les mers des fileur j'ai.
+## **Les règles du jeu**
 
-3. **Règle numéro 3**
-    
-    A ce yeux autour jaillir charmer un décor que soeurs. Tout surprise un sournois chaque et. Visage d'un ou d'une avec de pleure-t-elle de flanc adorablement, pourquoi de trait frémir de de musculeux. Couronne» et haut nous beauté hélas sur.
+![plateau](images/jeu-oie2.jpg)
+
+1. Choisissez la couleur du pion ou de celui de l'équipe.
+
+2. Lancez le dé une fois pour savoir qui va commencer.
+3. C’est votre tour : lancez le dé et avancez le pion.
+4. Cliquez sur le numéro pour lire la question.
+5. Chacun lance le dé à son tour dans un ordre déterminé.
+6. On compte sur le jeu avec les marques autant de cases que les dés ont amené de points.
+7. Pour chaque mauvaise réponse reculez de 2 cases.
+8. Avancez du nombres de cases indiqué quand vous avez une bonne question et reculez d'autant
+de cases indiqué quand vous avez une mauvaise question.

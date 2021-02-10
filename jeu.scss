@@ -1,0 +1,69 @@
+[tabindex="-1"]:focus:not(:focus-visible) {
+    outline: 0 !important;
+}
+
+@import 'quiz/sass/mediaqueries';
+@import 'sass/base';
+// @import 'sass/fonts';
+@import 'sass/dessincase';
+@import 'sass/lecture';
+@import 'sass/de';
+@import 'sass/pion';
+@import 'sass/numero';
+@import 'sass/rebours';
+@import 'sass/main';
+// @import 'sass/tooltip';
+// scss-docs-start import-stack
+// Configuration
+@import "node_modules/bootstrap/scss/functions";
+@import 'node_modules/bootstrap/scss/variables';
+@import 'node_modules/bootstrap/scss/mixins';
+@import 'node_modules/bootstrap/scss/utilities';
+// Layout & components
+// @import "root";
+@import "node_modules/bootstrap/scss/reboot";
+// @import "type";
+// @import "images";
+// @import "containers";
+// @import "grid";
+// @import "tables";
+// @import "forms";
+// @import "buttons";
+@import 'node_modules/bootstrap/scss/buttons';
+// @import "node_modules/bootstrap/scss/transitions";
+// @import "dropdown";
+// @import "button-group";
+// @import "nav";
+// @import "navbar";
+// @import "card";
+// @import "accordion";
+// @import "breadcrumb";
+// @import "pagination";
+// @import "badge";
+// @import "alert";
+// @import "progress";
+// @import "list-group";
+// @import "close";
+// @import "toasts";
+// @import "modal";
+@import "node_modules/bootstrap/scss/tooltip";
+@import 'node_modules/bootstrap/scss/popover';
+// @import "carousel";
+// @import "spinners";
+// Helpers
+// @import 'node_modules/bootstrap/scss/helpers';
+// Utilities
+// @import 'node_modules/bootstrap/scss/utilities/api';
+// scss-docs-end import-stack
+a {
+    color: $link-color;
+    text-decoration: $link-decoration;
+    &:hover {
+        color: $link-hover-color;
+        text-decoration: $link-hover-decoration;
+    }
+    &:focus,
+    &:active {
+        border: 0;
+    }
+}
